@@ -1,0 +1,64 @@
+.DropNotifi .contenedor-testimonio{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: px 5px;
+    width: 390px;
+    height: 90px;
+    margin-top:3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-bottom:1px solid rgb(189, 189, 189);
+    /*padding: 10px;*/
+    border-radius: 10px;
+}
+
+.DropNotifi .imagen-testimonio{
+    
+    height: 30px;
+    margin: 10px;
+    width: 30px;
+   /* overflow: hidden;*/
+  
+}
+
+.DropNotifi .contenedor-texto-testimonio{
+    width: 100%;
+    padding: 4px;
+    text-align: center;
+    font-family: "Dosis";
+    
+    line-height: 0.9rem;
+}
+
+.DropNotifi .nombre-testimonio{
+    font-size: 0.75rem;
+    text-align: left;
+    margin-bottom: 10px;
+    line-height: 0px;
+}
+
+
+.DropNotifi .texto-testimonio{
+    font-size: 0.75rem;
+    text-align: justify;
+    padding:0;
+    
+}
+
+ .notificaciones{
+    padding-bottom: 20px;
+    height: 17px;
+    width: 395px;
+    margin-left: 8px;
+    font-family: "Dosis";
+    border-bottom: 2px solid black;
+    
+}
+.texto-notificacion{
+    font-size: 0.85rem;
+    
+}
+

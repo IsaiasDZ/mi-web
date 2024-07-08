@@ -1,0 +1,32 @@
+#dropdown-basic-button {
+     width: 30px;
+     height: 30px;
+     margin: 0px;
+     color: black;
+     text-align: center;
+     justify-content: center;
+     line-height: 0;
+     background-color: transparent; /* Fondo transparente */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cursor en forma de mano */
+    padding: 0px; /* Espaciado interno */
+    transition: background-color 0.3s;         /* Cursor de puntero al pasar por encima */
+    font-size: 35px;
+    overflow: hidden;
+    
+    
+  }
+ 
+  .hide-caret .dropdown-toggle::after {
+     display: none;
+     
+   }
+  /* Estilos para la parte desplegable del menú */
+  .dropdown-menu.show {
+       padding:  0;           /* Espaciado interno de la parte desplegable */
+       
+       background-color: rgb(255, 255, 255);
+       border-radius: 15px;
+  }
+  
+  /* Estilos para los elementos del menú desplegable */
