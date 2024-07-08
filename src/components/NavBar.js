@@ -3,24 +3,38 @@ import "../styles/NavBar.css";
 import { Link } from "react-router-dom";
 import { FaCameraRetro } from "react-icons/fa6";
 import Profile from '../components/Profile';
+import NotificatioButton from "../components/NotificationButton"
+import LoginProfile from '../components/LoginProfile';
+import LoginButton from '../components/LoginButton';
+import LogoutButton from '../components/LogoutButton';
+import { useAuth0 } from '@auth0/auth0-react'; 
 
-function Nav(){
+function NavBar(){
+  const{isAuthenticated}=useAuth0()
 
   return(
         <div className="navbar">
           <div className="logo"><h2 className="ico">PixelGallery<FaCameraRetro className="ico"/></h2></div>
            <ul className="nav-links">
               <Link to="/">Home</Link>
-              <Link to="/about">About</Link>
+              <Link to="/Tutoriales">Tutoriales</Link>
               <Link to="/shop">Shop</Link>
            </ul>
-          
+          <NotificatioButton/>
+            {
+              isAuthenticated ? 
+              <LogoutButton/>
+              
+              :
+              <LoginButton/>
+            }
+            <LoginProfile/>
         </div>
   );
 
 }
 
-export default Nav;
+export default NavBar;
 /*
 <div>
 <BasicButtonExample/> 

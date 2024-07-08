@@ -3,25 +3,30 @@
 .hero {
     width: 100%;
     height: 1000px;
-    background-color: #4b8ef7;
+    
     color: white;
     padding: 20px;
     text-align: center;
+    
   }
   
   .hero .fondo-imagen{
     top: 0;
     left: 0;
     width: 100%;
+    height: 1000px;
     position: absolute;
+    overflow: hidden;
     
   }
   .hero .content {
+    width: 1500px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
-    padding: 50px 0;
+    padding: 50px 0px;
     margin-top: 250px;
+    margin-left: 0px;
     position: relative;
     
   }

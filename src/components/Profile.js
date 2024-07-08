@@ -9,7 +9,7 @@ const Profile = () => {
     }
 
     if (!isAuthenticated) {
-        return <div>Usuario no autenticado</div>;
+        return <div>Inicie sesion</div>;
     }
   return (
     <div>

@@ -55,6 +55,7 @@
     margin-left: 8px;
     font-family: "Dosis";
     border-bottom: 2px solid black;
+    ;
     
 }
 .texto-notificacion{
@@ -62,3 +63,29 @@
     
 }
 
+ .dropdown-menu.show{
+    height: 300px;
+    overflow: auto;
+}
+
+.dropdown-menu.show {
+    overflow: auto;
+    /* Ajusta el tamaño y el estilo de la barra de desplazamiento */
+    scrollbar-width: thin; /* "thin", "auto" o "none" dependiendo del navegador */
+    scrollbar-color: #888888 #f0f0f0; /* color de la barra y del fondo */
+  }
+  
+  /* Estilo específico para WebKit (Safari, Chrome) */
+  .dropdown-menu.show::-webkit-scrollbar {
+    width: 8px; /* ancho de la barra */
+  }
+  
+  .dropdown-menu.show::-webkit-scrollbar-track {
+    background-color: #f0f0f0; /* color de fondo de la barra de desplazamiento */
+  }
+  
+  .dropdown-menu.show::-webkit-scrollbar-thumb {
+    background-color: #888888; /* color de la barra de desplazamiento */
+    border-radius: 4px; /* bordes redondeados de la barra de desplazamiento */
+  }
+  

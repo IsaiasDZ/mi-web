@@ -1,3 +1,4 @@
+
 .testimonio-div .contenedor-testimonio{
     
     width: 1700px;
@@ -18,7 +19,54 @@
     height: 100%;
     width: auto;
    /* overflow: hidden;*/
+   border-radius: 15px 0px 0px 8px;.testimonio-div .contenedor-testimonio{
+    
+    width: 1700px;
+    height: 200px;
+    margin: 10px 10px 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0 4px 4px 1px rgb(0 0 0 / 20%);
+    /*padding: 10px;*/
+    border-radius: 15px;
+}
+
+.testimonio-div .imagen-testimonio{
+    
+    height: 100%;
+    width: auto;
+   /* overflow: hidden;*/
    border-radius: 15px 0px 0px 8px;
+}
+
+.testimonio-div .contenedor-texto-testimonio{
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    font-family: "Dosis";
+    line-height: 1.5rem;
+}
+
+.testimonio-div-div .nombre-testimonio{
+    font-size: 1.3rem;
+
+}
+
+.testimonio-div .cargo-testimonio{
+    font-size: 1.3rem;
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+
+.testimonio-div .texto-testimonio{
+    font-size: 1.1rem;
+    text-align: justify;
+    padding:0px 15px ;
+    
+}
 }
 
 .testimonio-div .contenedor-texto-testimonio{

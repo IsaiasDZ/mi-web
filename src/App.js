@@ -1,49 +1,42 @@
 import './App.css';
 import NavBar from './components/NavBar';
 import Testimonio from "./components/Testimonio"
-import LoginButton from './components/LoginButton';
-import LogoutButton from './components/LogoutButton';
-import { useAuth0 } from '@auth0/auth0-react'; 
+
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import LoginProfile from './components/LoginProfile';
 import Home from "./screens/Home"
-import About from "./screens/About"
 import HeroSection from './components/HeroSection';
+import Tutoriales from './screens/Tutoriales';
+import React, { useEffect } from 'react'
 
 function App() {
-  const{isAuthenticated}=useAuth0()
+  useEffect(() => {
+    const preventZoom = (e) => {
+      if (e.ctrlKey && (e.key === '+' || e.key === '-' || e.key === '0')) {
+        e.preventDefault();
+      }
+    };
+
+    window.addEventListener('keydown', preventZoom);
+
+    return () => {
+      window.removeEventListener('keydown', preventZoom);
+    };
+  }, []);
   return (
      
-      <Router>
-        <div className="App">
-        <NavBar />
-        <HeroSection/>
-        <Switch>
-          <Route path="./screens/Home" exact component={Home} />
-          <Route path="./screens/About" component={About} />
-        </Switch>
-        
-        
-      <div className='contenedr-principal'>
-      <h1>Esto es lo que dicen los alumnos de la Universidad</h1>
-      <Testimonio/>
-
-      {
-        isAuthenticated ? 
-        <LogoutButton/>
-        :
-        <LoginButton/>
-      }
-      
-      
-      
-      <LoginProfile/>
-      </div>
-      </div>
-    </Router>
+    <Router>
+    <div className="App">
+      <NavBar />
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/tutoriales" component={Tutoriales} />
+      </Switch>
+    </div>
+  </Router>
 
     
   );
 }
 
 export default App;
+//<HeroSection/>

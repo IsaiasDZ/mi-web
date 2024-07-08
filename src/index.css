@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* Desactivar el zoom en dispositivos táctiles */
+html, body {
+  touch-action: manipulation;
+}
+
+/* Desactivar el zoom con gestos de pellizco */
+html {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
