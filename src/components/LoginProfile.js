@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react';
 import DropdownButton from 'react-bootstrap/DropdownButton';
-
+import "../styles/DropNotificacion.css";
 import Profile from './Profile';
 import { useAuth0 } from '@auth0/auth0-react'; 
 
@@ -28,8 +28,8 @@ function LoginProfile() {
     
     <DropdownButton
       
-      className="drop-profile-button"
-      title={<><img src={user.picture} width="30px"/> </>}
+      className="drop-notification"
+      title={<><img src={user.picture} className="img-box"/> </>}
       show={show} 
       onToggle={handleToggle}
     > 

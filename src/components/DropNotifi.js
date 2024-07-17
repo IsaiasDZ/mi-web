@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/DropNotifi.css";
+//import "../styles/DropNotifi.css";
 import Data from "../database/Data-notifi";
 
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import { useAuth0 } from '@auth0/auth0-react'; 
+import LogoutButton from './LogoutButton';
 
 const Profile = () => {
     const { user, isAuthenticated, isLoading } = useAuth0();
@@ -13,9 +14,10 @@ const Profile = () => {
     }
   return (
     <div>
-        
-        <h2>{user.name}</h2>
-        <h4>{user.email}</h4>
+        <img src={user.picture} className='img-box-perfil'/>
+        <p><strong>{user.name}</strong></p>
+        <p>{user.email}</p>
+        <LogoutButton/>
        
       
 

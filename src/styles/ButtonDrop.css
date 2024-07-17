@@ -1,4 +1,4 @@
-#dropdown-basic-button {
+.Dropdown-button #dropdown-basic-button {
      width: 30px;
      height: 30px;
      margin: 0px;
@@ -17,12 +17,12 @@
     
   }
  
-  .hide-caret .dropdown-toggle::after {
+  .Dropdown-button .hide-caret .dropdown-toggle::after {
      display: none;
      
    }
   /* Estilos para la parte desplegable del menú */
-  .dropdown-menu.show {
+  .Dropdown-button .dropdown-menu.show {
        padding:  0;           /* Espaciado interno de la parte desplegable */
        
        background-color: rgb(255, 255, 255);
@@ -30,3 +30,97 @@
   }
   
   /* Estilos para los elementos del menú desplegable */
+
+
+  .Dropdown-button .DropNotifi .contenedor-testimonio{
+     padding-top: 10px;
+     padding-left: 10px;
+     padding-right: 10px;
+     margin: px 5px;
+     width: 390px;
+     height: 90px;
+     margin-top:3px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #ffffff;
+     border-bottom:1px solid rgb(189, 189, 189);
+     /*padding: 10px;*/
+     border-radius: 10px;
+ }
+ 
+ .Dropdown-button .DropNotifi .imagen-testimonio{
+     
+     height: 30px;
+     margin: 10px;
+     width: 30px;
+    /* overflow: hidden;*/
+   
+ }
+ 
+ .Dropdown-button .DropNotifi .contenedor-texto-testimonio{
+     width: 100%;
+     padding: 4px;
+     text-align: center;
+     font-family: "Dosis";
+     
+     line-height: 0.9rem;
+ }
+ 
+ .Dropdown-button .DropNotifi .nombre-testimonio{
+     font-size: 0.75rem;
+     text-align: left;
+     margin-bottom: 10px;
+     line-height: 0px;
+ }
+ 
+ 
+ .DropNotifi .texto-testimonio{
+     font-size: 0.75rem;
+     text-align: justify;
+     padding:0;
+     
+ }
+ 
+ .Dropdown-button .notificaciones{
+     padding-bottom: 20px;
+     height: 17px;
+     width: 395px;
+     margin-left: 8px;
+     font-family: "Dosis";
+     border-bottom: 2px solid black;
+     ;
+     
+ }
+ .Dropdown-button .texto-notificacion{
+     font-size: 0.85rem;
+     
+ }
+ 
+.Dropdown-button .dropdown-menu.show {
+     height: 300px;
+     padding: 10px;
+     overflow: auto;
+ }
+ 
+ .Dropdown-button .dropdown-menu.show{
+     overflow: auto;
+     /* Ajusta el tamaño y el estilo de la barra de desplazamiento */
+     scrollbar-width: thin; /* "thin", "auto" o "none" dependiendo del navegador */
+     scrollbar-color: #ebebeb #f0f0f0; /* color de la barra y del fondo */
+   }
+   
+   /* Estilo específico para WebKit (Safari, Chrome) */
+   .Dropdown-button .dropdown-menu.show::-webkit-scrollbar {
+     width: 8px; /* ancho de la barra */
+   }
+   
+   .Dropdown-button .dropdown-menu.show::-webkit-scrollbar-track {
+     background-color: #f0f0f0; /* color de fondo de la barra de desplazamiento */
+   }
+   
+   .Dropdown-button .dropdown-menu.show::-webkit-scrollbar-thumb {
+     background-color: #dadada; /* color de la barra de desplazamiento */
+     border-radius: 4px; /* bordes redondeados de la barra de desplazamiento */
+   }
+   

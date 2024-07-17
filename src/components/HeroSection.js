@@ -13,7 +13,7 @@ const HeroSection = () => {
         </div>
         <div className="image">
           <div className="circle">
-            <img src={require("../img/instagram_1057248.png")} alt="Physiotherapy" />
+            <img src={require("../img/1366_2000.jpg")} alt="Physiotherapy" />
             <div className="stats">
               <h2>100+</h2>
               <p>Galeria</p>

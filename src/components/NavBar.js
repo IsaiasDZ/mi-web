@@ -6,7 +6,7 @@ import Profile from '../components/Profile';
 import NotificatioButton from "../components/NotificationButton"
 import LoginProfile from '../components/LoginProfile';
 import LoginButton from '../components/LoginButton';
-import LogoutButton from '../components/LogoutButton';
+
 import { useAuth0 } from '@auth0/auth0-react'; 
 
 function NavBar(){
@@ -20,15 +20,20 @@ function NavBar(){
               <Link to="/Tutoriales">Tutoriales</Link>
               <Link to="/shop">Shop</Link>
            </ul>
-          <NotificatioButton/>
+          
             {
               isAuthenticated ? 
-              <LogoutButton/>
-              
+              (
+                <>
+                <NotificatioButton/>
+                 
+                </>
+              )
               :
-              <LoginButton/>
+                <LoginButton/>
+            
             }
-            <LoginProfile/>
+                <LoginProfile/>
         </div>
   );
 
