@@ -1,0 +1,33 @@
+.cards-home{
+    width: 600x;
+    display: flex;  
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: center;
+   
+}
+.card{
+    margin: 15px;
+    width: 400px;
+    
+}
+.card-titulo{
+    font-size: 1.6rem;
+}
+.card-text{
+    font-size: 15px;
+}
+
+.Cards-Center{
+    width: 1500px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.card img {
+    width:398px ;
+    height: 223px;
+
+}

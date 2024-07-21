@@ -2,36 +2,89 @@ import React from "react";
 import "../styles/NavBar.css";
 import { Link } from "react-router-dom";
 import { FaCameraRetro } from "react-icons/fa6";
-import Profile from '../components/Profile';
+
 import NotificatioButton from "../components/NotificationButton"
 import LoginProfile from '../components/LoginProfile';
 import LoginButton from '../components/LoginButton';
 
 import { useAuth0 } from '@auth0/auth0-react'; 
 
+const links = [
+  {
+    name: "Home",
+    href: "/",
+
+  },{
+    name: "Tutoriales",
+    href: "/tutoriales",
+
+  },{
+    name: "Articulos",
+    href: "/articulos",
+
+  },
+  {
+    name: "Concursos",
+    href: "/concursos",
+
+  },
+  {
+    name: "Criticas",
+    href: "/criticas",
+
+  },
+  {
+    name: "Equipo",
+    href: "/equipo",
+
+  },
+  {
+    name: "Noticias",
+    href: "/noticias",
+
+  }
+];
+
 function NavBar(){
   const{isAuthenticated}=useAuth0()
 
   return(
         <div className="navbar">
+          <NotificatioButton/>
           <div className="logo"><h2 className="ico">PixelGallery<FaCameraRetro className="ico"/></h2></div>
-           <ul className="nav-links">
-              <Link to="/">Home</Link>
-              <Link to="/Tutoriales">Tutoriales</Link>
-              <Link to="/shop">Shop</Link>
-           </ul>
+           
           
             {
               isAuthenticated ? 
               (
                 <>
+                {links.map((x) =>(
+                  
+                  <div className="nav-links">
+                  <Link to={x.href}>{x.name}</Link>
+                  </div>
+                ))}
+                
                 <NotificatioButton/>
-                 
+                <NotificatioButton/>
                 </>
               )
               :
+              (
+                <>
+                <ul></ul>
+                <ul></ul>
+                <ul></ul>
+                <ul></ul>
+                <ul></ul>
+                <ul></ul>
+                <ul></ul>
+                <ul></ul>
+                <ul></ul>
+                <ul></ul>
                 <LoginButton/>
-            
+                </>
+              )
             }
                 <LoginProfile/>
         </div>

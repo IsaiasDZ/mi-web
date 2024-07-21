@@ -1,0 +1,10 @@
+.contenido-tutoriales{
+    display: flex;
+  flex-direction: column;
+  gap: 20px; /* Espacio entre los elementos */
+  align-items: center;
+}
+
+.contenido-tutoriales{
+    background-color: rgb(221, 232, 253);
+}

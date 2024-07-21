@@ -8,15 +8,12 @@
     justify-content: space-around;
     align-items: center;
     color: #3d3d3d;
-    background: rgb(244, 245, 246);
+    background: rgba(244, 245, 246);
     z-index: 1000; /* Asegura que esté por encima de otros elementos */
   }
   
   .App .navbar .nav-links {
-    width: 40%;
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
+    
   }
 
   .App .navbar .nav-links>a{

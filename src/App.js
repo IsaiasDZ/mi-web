@@ -1,23 +1,31 @@
 import './App.css';
 import NavBar from './components/NavBar';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import Home from "./screens/Home"
 import Tutoriales from './screens/Tutoriales';
 import React, { useEffect } from 'react'
+import Footer from "./components/Footer"
 
 function App() {
-  useEffect(() => {
-   
-  }, []);
+ 
   return (
      
     <Router>
     <div className="App">
+      
       <NavBar />
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/tutoriales" component={Tutoriales} />
-      </Switch>
+      
+      
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/tutoriales" element={<Tutoriales/>} />
+      </Routes>
+      
+      
+      <div className='footer-size'>
+          <Footer/>
+      </div>
+      
     </div>
   </Router>
 

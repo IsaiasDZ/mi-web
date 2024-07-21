@@ -7,9 +7,9 @@ const HeroSection = () => {
          <img src={require("../img/header-home.jpg")} alt="Physiotherapy" className='fondo-imagen'/>
       <div className="content">
         <div className="text">
-          <h1>Bienvenido a PixelGallery</h1>
-          <p>En este lugar encontraras una variedad de noticias del mundo de la fotografia y mucho mas</p>
-          <button type="button" class="btn btn-primary" >Iniciar sesion</button>
+          <h1>Hola,<br />Bienvenido a PixelGallery</h1>
+          <p>En este lugar encontraras una variedad de noticias del mundo de la fotografia. Inicia sesión o registrate para tener acceso a todo el contenido.</p>
+          <button type="button" class="btn btn-dark" >Iniciar sesion</button>
         </div>
         <div className="image">
           <div className="circle">

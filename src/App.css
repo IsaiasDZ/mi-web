@@ -7,7 +7,8 @@ html,
 body{
   margin-top: 0px;
   font-size: 19px;
-  background-color: rgb(235, 231, 231); 
+
+  
 }
 
 h1{
@@ -27,7 +28,7 @@ h1{
   align-items: center;
   justify-content: center;
   text-align: center;
-
+  background-color: none  ;
 } 
 
 .contenedor-principal{
@@ -36,5 +37,19 @@ h1{
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  gap: 20px; /* Espacio entre los elementos */
 }
 
+.section-home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenido-home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}

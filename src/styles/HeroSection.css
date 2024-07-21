@@ -1,10 +1,10 @@
 /* HeroSection.css */
 
 .hero {
-  width: 100%;
+  width: 1920px;
   position: relative; /* Asegura que .fondo-imagen use el .hero como referencia */
   width: 100%; /* Ajusta el ancho según sea necesario */
-  height: 100vh; /* Ajusta la altura según sea necesario */
+  height: 580px; /* Ajusta la altura según sea necesario */
 }
 
 .hero .fondo-imagen {
@@ -17,12 +17,12 @@
   overflow: hidden; /* Oculta el contenido que sobresale del contenedor */
 }
   .hero .content {
-    width: 1800px;
+    width: 1920px;
     display: flex;
     left: 0;
     
     padding: 50px 0px;
-    margin-top: 600px;
+    margin-top: 540px;
     margin-left: 0px;
     position: relative;
     
@@ -30,25 +30,27 @@
   
   .hero .text {
     padding: 20px;
-    background-color: rgb(255, 255, 255) ; 
+    background-color:none; 
     max-width: 40%;
     border-radius: 100px;
+    text-align: left;
+    padding-left: 60px;
   }
   
   .hero .text h1 {
-    font-size: 3em;
+    font-size: 3.2em;
+    color: #444444;
     margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   
   .hero .text p {
     margin-bottom: 20px;
+    font-weight:500;
   }
   
   .hero .text button {
-    padding: 15px 30px;
-    background-color: #ffffff;
-    color: rgb(7, 7, 7);
-    border: none;
+  
     cursor: pointer;
   }
 
@@ -80,6 +82,6 @@
     padding: 10px 20px;
     border-radius: 50px;
     text-align: center;
-    color: rgb(201, 121, 121);
+    color: rgb(255, 255, 255);
   }
   

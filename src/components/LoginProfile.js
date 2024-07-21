@@ -29,7 +29,7 @@ function LoginProfile() {
     <DropdownButton
       
       className="drop-notification"
-      title={<><img src={user.picture} className="img-box"/> </>}
+      title={<><img src={user.picture} className="img-box" alt='imagen-perfil'/> </>}
       show={show} 
       onToggle={handleToggle}
     > 

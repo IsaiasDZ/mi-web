@@ -4,10 +4,10 @@ import "../styles/HeroSection2.css"
 const HeroSection2 = (props) => {
   return (
     <div className='hero2'>
-        <img src={props.imagen} alt={props.alt}/>
+        <img src={props.imagen} alt={props.alt} className='img-hero2'/>
         <div className='textos'>
-        <h1>{props.titulo}</h1>
-        <p>{props.subtitulo}</p>
+        <h1 className='titulo-hero2'>{props.titulo}</h1>
+        <p className='texto-hero2' dangerouslySetInnerHTML={{ __html: props.subtitulo }}></p>
         </div>
     </div>
   )

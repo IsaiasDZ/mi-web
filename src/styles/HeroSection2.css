@@ -2,22 +2,51 @@
 
 
 .hero2 {
-    width: 100%;
-    height: 1000px;
+    width: 1920px;
+    height: 700px;
     top: 0;
     left: 0;
-   
+    position: relative;
     color: white;
     text-align: center;
-    position: absolute;
-    
+    overflow: hidden; 
   }
 
 .contenido{
-    padding-top: 1100px;
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
 }
 
-.hero2 img{
-    width: 100%;
-    height: 1000px;
+.hero2 .img-hero2{
+    width: 1920px;
+    height: 700px;
+    display: flex;
+    position: absolute;
+    z-index: 1;
 }
+
+.hero2 .textos{
+    padding-top: 300px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
+    z-index: 2;
+}
+
+.hero2 .textos h1 {
+    font-family:unset;
+    font-size: 6.5em;
+    color: #ffffff;
+    font-weight: 0;
+  }
+  
+  .hero2 .textos p {
+    width: 1920px;
+    font-size: 1.5em;
+    color: #cfcfcf;
+  }
