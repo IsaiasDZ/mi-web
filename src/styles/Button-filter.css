@@ -1,20 +1,21 @@
 /* styles.css */
 .filters-menu {
+  margin-top: 10px;
   width: 1200px;
-  height: 400px;
+  height: 220px;
   
   overflow: auto;
   display: flex;
   flex-direction: column;
-  background-color: #f9f9f9;
+  background-color: rgb(255, 255, 255);
   border: 1px solid #ccc;
   padding: 10px;
   position: relative;
   
   align-items: center;
   align-content: center;
+  border-radius: 10px;
   
-  z-index: 1000;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -24,27 +25,36 @@
 }
 
 .filters-menu button {
-  margin: 5px 0;
+  margin: 5px 2px;
   padding: 5px 10px;
   cursor: pointer;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  display: flex;
-  align-content: center;
-  padding-left: 900px;
+ 
   
+  
+} 
+.button-filter-pos{
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+ 
 }
+  
+
 
 .button-filter{
+  margin-top: 20px;
   width: 1200px;
   display: flex;
   align-content: center;
   align-items: center;
   text-align: center;
+  justify-content: center;
 }
 
 .filters-menu button:hover {
-  background-color: #f0f0f0;
+
 }
 
 .courses {
@@ -60,3 +70,6 @@
   width: 200px;
 }
 
+.buttonsFilt button{
+  margin: 2px;
+}

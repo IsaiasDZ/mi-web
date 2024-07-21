@@ -19,7 +19,7 @@ const Data = [
       texto: "Descubre cómo capturar paisajes impresionantes con técnicas especializadas",
       categoria: "Paisajes",
       dificultad: "Básico"
-    },/*
+    },
     {
       img: "tutoriales4.jpg",
       titulo: "Retratos profesionales",
@@ -201,13 +201,6 @@ const Data = [
       texto: "Explora técnicas clásicas para la fotografía en blanco y negro",
       categoria: "Blanco y Negro",
       dificultad: "Avanzado"
-    },
-    {
-      img: "tutoriales30.jpg",
-      titulo: "Fotografía de eventos deportivos",
-      texto: "Captura la emoción de los eventos deportivos con técnicas especializadas",
-      categoria: "Eventos",
-      dificultad: "Básico"
-    }*/
+    }
 ];
     export default Data;

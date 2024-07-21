@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 //import "../styles/Button-filter.css"
 import Data from "../database/Data-Card-Tutoriales"
+import { FaFilter } from "react-icons/fa6";
 
 const FilterButton = ({ setFilter }) => {
   const [showFilters, setShowFilters] = useState(false);
@@ -19,7 +20,7 @@ const FilterButton = ({ setFilter }) => {
 
   return (
     <div>
-      <button onClick={toggleFilters}>Escoger Filtros</button>
+      <button onClick={toggleFilters}><p>a</p>Escogser Filtros</button>
       {showFilters && (
         <div className="filters-menu">
           <div>

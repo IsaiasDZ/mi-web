@@ -31,3 +31,18 @@
     height: 223px;
 
 }
+
+
+.card:hover{
+    
+    z-index: 10;
+}
+
+.card:hover{
+    background-color: rgb(40, 40, 40);
+    transform: scale(1.05);
+    
+    color: white;
+    cursor: pointer;
+    opacity: 1;
+}

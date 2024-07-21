@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import "../styles/Button-filter.css"
 import "../styles/Cards.css"
 import Data from "../database/Data-Card-Tutoriales"
+import { FaFilter } from "react-icons/fa6";
+import { FaEye } from "react-icons/fa";
+
 
 const FilterButton = ({ setFilter }) => {
     const [showFilters, setShowFilters] = useState(false);
@@ -17,16 +20,21 @@ const FilterButton = ({ setFilter }) => {
       }));
       setShowFilters(false); // Close the filters menu after selecting
     };
+    const handleResetFilters = () => {
+      setFilter({ categoria: '', dificultad: '' });
+      setShowFilters(false); // Close the filters menu after resetting
+    };
   
     return (
-      <div>
-        <button onClick={toggleFilters}>Escoger Filtros</button>
+      <div className='buttonsFilt'>
+        <button onClick={toggleFilters} class="btn btn-dark"><FaFilter /> Escoger Filtros</button>
+        <button class="btn btn-dark" onClick={handleResetFilters}><FaEye /> Mostrar Todos</button>
         {showFilters && (
           <div className="filters-menu">
             <div>
               <h4>Categoría</h4>
               {categories.map(category => (
-                <button key={category} onClick={() => handleFilterClick('categoria', category)}>
+                <button  class="btn btn-outline-dark" key={category} onClick={() => handleFilterClick('categoria', category)}>
                   {category}
                 </button>
               ))}
@@ -34,7 +42,7 @@ const FilterButton = ({ setFilter }) => {
             <div>
               <h4>Dificultad</h4>
               {difficulties.map(difficulty => (
-                <button key={difficulty} onClick={() => handleFilterClick('dificultad', difficulty)}>
+                <button class="btn btn-outline-dark" key={difficulty} onClick={() => handleFilterClick('dificultad', difficulty)}>
                   {difficulty}
                 </button>
               ))}
@@ -44,6 +52,8 @@ const FilterButton = ({ setFilter }) => {
       </div>
     );
   };
+
+
   
 const Card = () => {
     const [filters, setFilters] = useState({ categoria: '', dificultad: '' });
@@ -60,7 +70,8 @@ const Card = () => {
   return (
     <div className='Cards-Center'>
       <div className='button-filter'>
-        <FilterButton setFilter={setFilters} />
+        <FilterButton setFilter={setFilters} className="button-filter-pos"/>
+       
       </div>
           
         {filteredData.map((item, index) => (
@@ -73,7 +84,7 @@ const Card = () => {
                 <p><strong>Dificultad:</strong> {item.dificultad}</p>
               </div>
             </div>
-        ))};
+        ))}
       
      </div>
   );

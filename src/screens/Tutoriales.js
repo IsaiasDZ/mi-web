@@ -4,7 +4,7 @@ import HeroSection2 from '../components/HeroSection2'
 import Imagen from "../img/tutoriales.jpg"
 import Card from '../components/Cards-tutoriales'
 import "../styles/Tutoriales.css"
-import Buttonfilter from "../components/Button-filter"
+
 
 const Tutoriales = () => {
     return (
@@ -19,9 +19,8 @@ const Tutoriales = () => {
         </div>
 
         <div className='contenido-tutoriales'>
-          <Buttonfilter/>
+         
           <Card/>
-          <Testimonio/> 
         </div> 
       </div>
     )
