@@ -1,5 +1,5 @@
 import React from 'react'
-import Imagen from "../img/concursos.jpg"
+import Imagen from "../img/equipo.jpg"
 import HeroSection2 from '../components/HeroSection2'
 
 const Equipo = () => {

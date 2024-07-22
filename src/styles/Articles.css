@@ -1,0 +1,115 @@
+
+.articulos-div .contenedor-testimonio{
+    
+    width: 1400px;
+    height: auto;
+    margin: 0px 10px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0 4px 4px 1px rgb(0 0 0 / 20%);
+    /*padding: 10px;*/
+}
+
+.articulos-div  .imagen-testimonio{
+    margin: 30px;
+    width: 400px;
+    height: 300px;
+   /* overflow: hidden;*/
+ 
+    background-color: #ffffff;
+    box-shadow: 0 4px 4px 1px rgb(0 0 0 / 20%);
+    /*padding: 10px;*/
+}
+
+
+
+.articulos-div  .contenedor-texto-testimonio{
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: "Dosis";
+    line-height: 1.5rem;
+}
+.articulos-div  .nombre-testimonio{
+    width: 700px;
+    padding-left: 30px;
+    margin: 10px 0px 0px 10px;
+    height: 45px;
+    font-size: 1.3rem;
+    background-color: black;
+    color: white;
+    border-radius: 10px 0px 0px 0px;
+    float: left;
+    text-align: left;
+}
+
+.articulos-div  .nombre-favorito{
+    width: 700px;
+    margin: 10px 10px 0px 0px;
+    height: 45px;
+    font-size: 1.4rem;
+    background-color: black;
+    color: white;
+    border-radius: 0px 10px 0px 0px;
+    float: right;
+    text-align: right;
+    padding-right: 30px;
+}       
+
+
+.articulos-div  .texto-testimonio{
+    font-size: 1.1rem;
+    text-align: justify;
+    padding:0px 15px ;
+    width: 800px;
+    
+}
+
+.articulos-div .book:hover{
+    cursor: pointer;
+}
+.articulos-div .box-buttons p{
+    display: flex;
+    width: 150px;
+    font-size: 1.1rem;
+    justify-content: center;
+    padding: 10px 0px;
+    align-items: center;
+    font-weight: 500;
+}
+.articulos-div .box-buttons{
+    margin: 0px 10px;
+    width: 1400px;
+    background-color: rgb(255, 255, 255);
+    height: 50px ;
+    display: flex;
+    box-shadow: 0 4px 4px 1px rgb(0 0 0 / 20%);
+    padding: 15px;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+    
+}
+
+.box-buttons .icons{
+    margin-right: 10px;
+}
+
+.body-comments{
+    margin: 0 10px;
+    width: 1400px;
+    display: flex;
+}
+.box-comments{
+    width: 1200px;
+    display: flex;
+}
+.box-comments    .img-comment{
+    width:50px ;
+    height: 50px;
+}.box-comments .form-control-lg{
+    width: 600px;
+}

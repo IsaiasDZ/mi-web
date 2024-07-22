@@ -1,5 +1,5 @@
 import React from 'react'
-import Imagen from "../img/concursos.jpg"
+import Imagen from "../img/criticas.jpg"
 import HeroSection2 from '../components/HeroSection2'
 
 const Criticas = () => {
@@ -8,9 +8,9 @@ const Criticas = () => {
       <div className='hero2'>
           <HeroSection2
           imagen={Imagen}
-          alt="Concursos"
-          titulo="Concursos"
-          subtitulo="Bienvenido al emocionante mundo de nuestros concursos fotograficos. Sumergete en </br> una experiencia unica donde la creatividad y el talento se encuentran </br> para celebrar la belleza del arte fotografico."
+          alt="Criticas"
+          titulo="Criticas"
+          subtitulo="Explora opiniones y resenas de los mejores libros para fotografos de todos los niveles."
           />
       </div>
 
