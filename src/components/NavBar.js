@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/NavBar.css";
 import { Link } from "react-router-dom";
 import { FaCameraRetro } from "react-icons/fa6";
-
+import FavoritesButton from "../components/FavoriteButton"
 import NotificatioButton from "../components/NotificationButton"
 import LoginProfile from '../components/LoginProfile';
 import LoginButton from '../components/LoginButton';
@@ -66,7 +66,7 @@ function NavBar(){
                   </div>
                 ))}
                 
-                <NotificatioButton/>
+                <FavoritesButton/>
                 <NotificatioButton/>
                 </>
               )

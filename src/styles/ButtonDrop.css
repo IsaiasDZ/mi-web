@@ -1,3 +1,6 @@
+.favoriteBtn{
+  font-size: 25px;
+}
 .Dropdown-button #dropdown-basic-button {
      width: 30px;
      height: 30px;
@@ -50,7 +53,7 @@
  }
  
  .Dropdown-button .DropNotifi .imagen-testimonio{
-     
+     display: flex;
      height: 30px;
      margin: 10px;
      width: 30px;
@@ -59,6 +62,7 @@
  }
  
  .Dropdown-button .DropNotifi .contenedor-texto-testimonio{
+    
      width: 100%;
      padding: 4px;
      text-align: center;
@@ -124,3 +128,14 @@
      border-radius: 4px; /* bordes redondeados de la barra de desplazamiento */
    }
    
+
+   .buttonsFav{
+      font-size: 20px;
+      margin-right: 5px;
+   }
+
+   .add-fav{
+    font-size: 20px;
+    margin-bottom: 8px;
+    margin-left: 285px;
+   }
