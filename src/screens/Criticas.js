@@ -1,8 +1,10 @@
 import React from 'react'
 import Imagen from "../img/criticas.jpg"
 import HeroSection2 from '../components/HeroSection2'
+import Criticas from "../components/Card-Criticas"
+import Card from '../components/Cards-Concursos'
 
-const Criticas = () => {
+const LibCriticas = () => {
   return (
     <div className='container-1'>
       <div className='hero2'>
@@ -15,11 +17,11 @@ const Criticas = () => {
       </div>
 
       <div className='contenido-tutoriales'>
-      
+        <Criticas/>
         
       </div> 
      </div>
   )
 }
 
-export default Criticas
+export default LibCriticas

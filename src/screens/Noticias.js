@@ -8,9 +8,9 @@ const Noticias = () => {
       <div className='hero2'>
           <HeroSection2
           imagen={Imagen}
-          alt="Concursos"
-          titulo="Concursos"
-          subtitulo="Bienvenido al emocionante mundo de nuestros concursos fotograficos. Sumergete en </br> una experiencia unica donde la creatividad y el talento se encuentran </br> para celebrar la belleza del arte fotografico."
+          alt="Noticias"
+          titulo="Noticias"
+          subtitulo="Explora Opiniones y Reseñas de los Mejores Libros para Fotógrafos de Todos los Niveles"
           />
       </div>
 

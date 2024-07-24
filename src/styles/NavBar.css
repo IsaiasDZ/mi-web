@@ -26,3 +26,13 @@
   .App .navbar .nav-links>a:hover{
     color: #297fb9;
   }
+
+  .offcanvas-body {
+    text-align: left;
+  }
+
+  .offcanvas-backdrop.show {
+    opacity: none;
+    width: 0;
+}
+

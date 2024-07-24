@@ -6,6 +6,7 @@ import { FaCameraRetro } from "react-icons/fa6";
 import NotificatioButton from "../components/NotificationButton"
 import LoginProfile from '../components/LoginProfile';
 import LoginButton from '../components/LoginButton';
+import LeftMenu from '../components/Left-Menu';
 
 import { useAuth0 } from '@auth0/auth0-react'; 
 
@@ -50,7 +51,7 @@ function NavBar(){
 
   return(
         <div className="navbar">
-          <NotificatioButton/>
+          <LeftMenu/>
           <div className="logo"><h2 className="ico">PixelGallery<FaCameraRetro className="ico"/></h2></div>
            
           
