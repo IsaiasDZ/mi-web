@@ -11,7 +11,7 @@ import { GiPodiumWinner } from "react-icons/gi";
 import { FaBookReader } from "react-icons/fa";
 import { AiFillCamera } from "react-icons/ai";
 import { FaNewspaper } from "react-icons/fa";
-import '../styles.scss';
+
 
 const links = [
   {

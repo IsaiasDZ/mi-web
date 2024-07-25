@@ -14,7 +14,7 @@ function DropNotifi() {
       <div className="contenedor-testimonio">
       <img className="imagen-testimonio" src={require("../img/notificacio-drop.png")} alt="foto-de-daniel"/>
       <div className="contenedor-texto-testimonio">
-        <p className="nombre-testimonio"><strong>{data.nombre}</strong> en {data.pais}</p>
+        <p className="nombre-testimonio"><strong>{data.nombre}</strong></p>
         <p className="texto-testimonio">{data.texto}</p>
       </div>
 

@@ -105,13 +105,14 @@
      height: 300px;
      padding: 10px;
      overflow: auto;
+     box-shadow: 5px 5px rgba(0, 0, 0, 0.096);
  }
  
  .Dropdown-button .dropdown-menu.show{
      overflow: auto;
      /* Ajusta el tamaño y el estilo de la barra de desplazamiento */
      scrollbar-width: thin; /* "thin", "auto" o "none" dependiendo del navegador */
-     scrollbar-color: #ebebeb #f0f0f0; /* color de la barra y del fondo */
+     scrollbar-color: #000000 #f0f0f0; /* color de la barra y del fondo */
    }
    
    /* Estilo específico para WebKit (Safari, Chrome) */
@@ -119,14 +120,7 @@
      width: 8px; /* ancho de la barra */
    }
    
-   .Dropdown-button .dropdown-menu.show::-webkit-scrollbar-track {
-     background-color: #f0f0f0; /* color de fondo de la barra de desplazamiento */
-   }
-   
-   .Dropdown-button .dropdown-menu.show::-webkit-scrollbar-thumb {
-     background-color: #dadada; /* color de la barra de desplazamiento */
-     border-radius: 4px; /* bordes redondeados de la barra de desplazamiento */
-   }
+  
    
 
    .buttonsFav{
