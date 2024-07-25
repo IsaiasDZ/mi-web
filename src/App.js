@@ -1,4 +1,5 @@
 import './App.css';
+import './styles.scss';
 import NavBar from './components/NavBar';
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import Home from "./screens/Home"
@@ -10,13 +11,14 @@ import Concursos from './screens/Concursos';
 import Criticas from './screens/Criticas';
 import Equipo from './screens/Equipo';
 import Noticias from './screens/Noticias';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function App() {
  
   return (
      
     <Router>
-    <div className="App">
+    <div className="App " >
       
       <NavBar />
       

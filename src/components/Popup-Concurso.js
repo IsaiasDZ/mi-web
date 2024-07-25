@@ -6,8 +6,8 @@ import { IoMdCloseCircle } from "react-icons/io";
 // Componente de la card
 const Card = ({ onClick }) => {
   return (
-    <div onClick={onClick}>
-      <Cards/>
+    <div onClick={onClick} className='contenido-tutoriales'>
+      <Cards />
     </div>
   );
 };
@@ -74,7 +74,7 @@ const App = () => {
   };
 
   return (
-    <div className="App">
+    <div className="app">
       <Card onClick={handleCardClick} />
       {isFixedComponentVisible && (
         <>

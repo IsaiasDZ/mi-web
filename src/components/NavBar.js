@@ -15,28 +15,9 @@ const links = [
     name: "Home",
     href: "/",
 
-  },{
-    name: "Tutoriales",
-    href: "/tutoriales",
-
-  },{
+  },,{
     name: "Articulos",
     href: "/articulos",
-
-  },
-  {
-    name: "Concursos",
-    href: "/concursos",
-
-  },
-  {
-    name: "Criticas",
-    href: "/criticas",
-
-  },
-  {
-    name: "Equipo",
-    href: "/equipo",
 
   },
   {
@@ -51,7 +32,12 @@ function NavBar(){
 
   return(
         <div className="navbar">
-          <LeftMenu/>
+              {
+                    isAuthenticated ?
+                    <LeftMenu/>
+                    :
+                    <p></p>
+              }  
           <div className="logo"><h2 className="ico">PixelGallery<FaCameraRetro className="ico"/></h2></div>
            
           

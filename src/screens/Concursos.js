@@ -2,6 +2,8 @@ import React from 'react'
 import Imagen from "../img/concursos.jpg"
 import HeroSection2 from '../components/HeroSection2'
 import Prueba from "../components/Popup-Concurso"
+import "../styles/Tutoriales.css"
+import Card from '../components/Cards-Concursos'
 
 const Concursos = () => {
   return (
@@ -15,7 +17,8 @@ const Concursos = () => {
           />
       </div>
 
-      <div className='contenido-tutoriales'>
+      <div className='contenido-concurso'>
+       
         <Prueba/>
         
       </div> 

@@ -26,14 +26,14 @@ const Footer = () => {
                     </span>
                 </div>
                 <a
-                    href="https://github.com/sudiptob2/simple-react-footer"
+                    href="https://github.com/IsaiasDZ/mi-web"
                     target="_blank"
                     className="item3"
                 >
                     <FontAwesomeIcon icon={faGithub} />
                 </a>
                 <a
-                    href="http://fb.com/sudiptob2"
+                    href="https://www.facebook.com/?locale=es_LA"
                     target="_blank"
                     className="item4"
                 >
