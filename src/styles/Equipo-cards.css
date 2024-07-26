@@ -1,0 +1,55 @@
+.equipo-contenedor{
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 1200px;
+   
+}
+
+.equipo-principal{
+   
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    background-color: rgb(223, 223, 223);
+    
+}
+
+.contenedor-equipo{
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+  
+}
+
+.contenedor-texto-equipo{
+    text-align: left;
+    width: 780px;
+    height: 220px;
+    margin-right: 40px;
+}
+.titulo-equipo{
+    font-size: 1.1rem;
+}
+
+.tipo-equipo{
+    margin-left: 5px;
+    font-size: .9rem;
+    color: rgb(71, 101, 136);
+    font-weight: 500;
+}
+
+.texto-equipo{
+
+}
+.imagen-equipo{
+    display: flex;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 200px;
+}
+
+

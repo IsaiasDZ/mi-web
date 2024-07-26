@@ -12,6 +12,7 @@ import Criticas from './screens/Criticas';
 import Equipo from './screens/Equipo';
 import Noticias from './screens/Noticias';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Preguntas from './screens/PreguntasF';
 
 function App() {
  
@@ -31,6 +32,7 @@ function App() {
         <Route path="/criticas" element={<Criticas/>} />
         <Route path="/equipo" element={<Equipo/>} />
         <Route path="/noticias" element={<Noticias/>} />
+        <Route path="/preguntasf" element={<Preguntas/>} />
       </Routes>
       
       

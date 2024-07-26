@@ -1,0 +1,12 @@
+.contenido-preguntas-frecuentes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px; /* Espacio entre los elementos */
+}
+
+.contenido-preguntas-frecuentes{
+    background-color: rgb(236, 236, 236);
+}

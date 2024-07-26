@@ -23,6 +23,7 @@
 }
 
 .contenedor-criticas{
+    justify-content: center;
     display: flex;
     background-color: rgb(255, 255, 255);
 }

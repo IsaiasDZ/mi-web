@@ -1,6 +1,7 @@
 import React from 'react'
 import Imagen from "../img/equipo.jpg"
 import HeroSection2 from '../components/HeroSection2'
+import EquipoC from "../components/Equipo-cards"
 
 const Equipo = () => {
   return (
@@ -15,8 +16,7 @@ const Equipo = () => {
       </div>
 
       <div className='contenido-tutoriales'>
-      
-        
+        <EquipoC/>
       </div> 
      </div>
   )

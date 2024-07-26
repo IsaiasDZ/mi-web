@@ -1,29 +1,34 @@
 import React from "react";
 import "../styles/NavBar.css";
 import { Link } from "react-router-dom";
-import { FaCameraRetro } from "react-icons/fa6";
+
 import FavoritesButton from "../components/FavoriteButton"
 import NotificatioButton from "../components/NotificationButton"
 import LoginProfile from '../components/LoginProfile';
 import LoginButton from '../components/LoginButton';
 import LeftMenu from '../components/Left-Menu';
-
 import { useAuth0 } from '@auth0/auth0-react'; 
+import { FaCameraRetro } from "react-icons/fa6";
+import { TiHome } from "react-icons/ti";
+import { PiArticleNyTimesFill } from "react-icons/pi";
+import { FaNewspaper } from "react-icons/fa";
+
 
 const links = [
   {
     name: "Home",
     href: "/",
+    icon: <TiHome />
 
   },,{
     name: "Articulos",
     href: "/articulos",
-
+    icon:<PiArticleNyTimesFill />
   },
   {
     name: "Noticias",
     href: "/noticias",
-
+    icon: <FaNewspaper />
   }
 ];
 
@@ -48,7 +53,7 @@ function NavBar(){
                 {links.map((x) =>(
                   
                   <div className="nav-links">
-                  <Link to={x.href}>{x.name}</Link>
+                  <Link to={x.href}>{x.icon} {x.name}</Link>
                   </div>
                 ))}
                 

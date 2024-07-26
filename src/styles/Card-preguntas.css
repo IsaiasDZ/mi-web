@@ -1,0 +1,28 @@
+
+.contenedor-card-flex{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1500px;
+    justify-content: center;
+
+}
+.contenedor-preguntas{
+    align-content: center;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+    text-align: justify;
+    padding: 18px;
+    width: 400px;
+    height: 280px;
+    
+}
+
+.contenedor-preguntas:hover{
+    background-color: rgb(255, 234, 224);
+}
+
+.contenedor-preguntas .texto-preguntas{
+    color: rgb(107, 107, 107);
+}

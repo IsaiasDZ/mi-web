@@ -1,7 +1,8 @@
 import React from "react";
 //import "../styles/DropNotifi.css";
 import Data from "../database/Data-notifi";
-
+import { IoNotificationsOffSharp } from "react-icons/io5";
+import { IoNotificationsSharp } from "react-icons/io5";
 
 /*const {img, nombre, pais, cargo, texto}
 = DateTestimonio;*/
@@ -25,7 +26,7 @@ function DropNotifi() {
   return(
     <div className="contenedor-drop">
       <div className="notificaciones">
-        <p href="#/action-3" className="texto-notificacion"><strong>Notificaciones |</strong></p>
+        <p href="#/action-3" className="texto-notificacion"><strong>Notificaciones | <IoNotificationsOffSharp /> <IoNotificationsSharp /></strong></p>
        
         </div>
      { dataComp}

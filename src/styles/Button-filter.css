@@ -2,7 +2,7 @@
 .filters-menu {
   margin-top: 10px;
   width: 1200px;
-  height: 220px;
+  height: auto;
   
   overflow: auto;
   display: flex;
@@ -68,6 +68,13 @@
   margin: 10px;
   padding: 10px;
   width: 200px;
+}
+
+.buttonsFilt{
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  
 }
 
 .buttonsFilt button{

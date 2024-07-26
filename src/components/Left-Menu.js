@@ -11,7 +11,7 @@ import { GiPodiumWinner } from "react-icons/gi";
 import { FaBookReader } from "react-icons/fa";
 import { AiFillCamera } from "react-icons/ai";
 import { FaNewspaper } from "react-icons/fa";
-
+import { FaQuestionCircle } from "react-icons/fa";
 
 const links = [
   {
@@ -52,6 +52,12 @@ const links = [
     name: "Noticias",
     href: "/noticias",
     icon: <FaNewspaper />
+
+  },
+  {
+    name: "Preguntas Frecuentes",
+    href: "/preguntasf",
+    icon: <FaQuestionCircle />
 
   }
 ];
