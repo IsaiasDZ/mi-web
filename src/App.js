@@ -15,6 +15,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Preguntas from './screens/PreguntasF';
 import ProtectedRoute from './components/ProtectedRoute';
 import { useAuth0 } from '@auth0/auth0-react';
+import Galeria from './screens/Galeria';
 
 function App() {
   const { isAuthenticated } = useAuth0();
@@ -65,6 +66,11 @@ function App() {
                 <Preguntas/>
               </ProtectedRoute>
             } />
+        <Route path="/galeria" element={
+              <ProtectedRoute>
+                <Galeria/>
+              </ProtectedRoute>
+            } />    
         
       </Routes>
       

@@ -1,0 +1,95 @@
+.gallery-content{
+    background-color: rgb(3, 3, 3);
+    margin-top: 95px;
+    width: 1920px;
+    height: 880px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-content: center;
+    
+}
+
+.gallery-center{
+  
+    background-color: rgb(223, 223, 223);
+    width: 1800px;
+    height: 800px;
+    overflow: auto;
+    max-width: 1800px;
+    border-radius: 15px;
+}
+
+.encabezado{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    width: 1780px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.gallery-content .titulo-princ{
+    color: rgb(0, 0, 0);
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.gallery-content .titulo-estilo{
+    
+    text-align: left;
+    font-weight: 600;
+    width: 1760px;
+    margin: 5px;
+}
+
+.gallery-content img{
+    margin: 12px;
+    transition: 0.3;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    border-radius: 20px;
+}
+
+.gallery-content .imagenes{
+    width: 1760px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.contenedor-galeria-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-content img:hover{
+    cursor: pointer;
+    
+    filter:brightness(50%);
+}
+
+.oscurecer{
+    width: auto;
+    height: auto;
+}
+
+.tamaño-carousel{
+
+    margin-top: 45px;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    
+}
+
+.tamaño-carousel img{
+    height: 750px;
+    border-radius: 15px;
+    
+}

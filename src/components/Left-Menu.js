@@ -55,6 +55,12 @@ const links = [
 
   },
   {
+    name: "Galeria",
+    href: "/galeria",
+    icon: <FaNewspaper />
+
+  },
+  {
     name: "Preguntas F.",
     href: "/preguntasf",
     icon: <FaQuestionCircle />
