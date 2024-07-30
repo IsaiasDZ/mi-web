@@ -15,8 +15,12 @@ const Card = (prop) => {
   )
 })
 return(
-  <div className='Cards-Center'>
-   { dataComp}
+  <div className='card-home-title'>
+    <h1 className='titulo'>Navega por nuestro sitio web.</h1>
+    <p className='texto'>Aquí encontrarás una variedad de elementos relacionados a la fotografia.</p>
+    <div className='Cards-Center'>
+    { dataComp}
+    </div>
   </div>
 );
 

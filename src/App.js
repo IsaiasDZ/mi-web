@@ -13,9 +13,12 @@ import Equipo from './screens/Equipo';
 import Noticias from './screens/Noticias';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Preguntas from './screens/PreguntasF';
+import ProtectedRoute from './components/ProtectedRoute';
+import { useAuth0 } from '@auth0/auth0-react';
 
 function App() {
- 
+  const { isAuthenticated } = useAuth0();
+
   return (
      
     <Router>
@@ -26,13 +29,43 @@ function App() {
       
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/tutoriales" element={<Tutoriales/>} />
-        <Route path="/articulos" element={<Articulos/>} />
-        <Route path="/concursos" element={<Concursos/>} />
-        <Route path="/criticas" element={<Criticas/>} />
-        <Route path="/equipo" element={<Equipo/>} />
-        <Route path="/noticias" element={<Noticias/>} />
-        <Route path="/preguntasf" element={<Preguntas/>} />
+        
+        <Route path="/tutoriales" element={
+              <ProtectedRoute>
+                <Tutoriales/>
+              </ProtectedRoute>
+            } />
+        <Route path="/articulos" element={
+              <ProtectedRoute>
+                <Articulos/>
+              </ProtectedRoute>
+            } />
+        <Route path="/concursos" element={
+              <ProtectedRoute>
+                <Concursos/>
+              </ProtectedRoute>
+            } />
+        <Route path="/criticas" element={
+              <ProtectedRoute>
+                <Criticas/>
+              </ProtectedRoute>
+            } />
+        <Route path="/equipo" element={
+              <ProtectedRoute>
+                <Equipo/>
+              </ProtectedRoute>
+            } />
+        <Route path="/noticias" element={
+              <ProtectedRoute>
+                <Noticias/>
+              </ProtectedRoute>
+            } />
+        <Route path="/preguntasf" element={
+              <ProtectedRoute>
+                <Preguntas/>
+              </ProtectedRoute>
+            } />
+        
       </Routes>
       
       

@@ -55,7 +55,7 @@ const links = [
 
   },
   {
-    name: "Preguntas Frecuentes",
+    name: "Preguntas F.",
     href: "/preguntasf",
     icon: <FaQuestionCircle />
 
@@ -64,7 +64,7 @@ const links = [
 
 const Leftmenu = () => {
   return (
-    <div className="">
+    <div className="canvasAll">
       <button class="btn btn-outline-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
          <GiHamburgerMenu />
       </button>

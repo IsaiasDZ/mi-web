@@ -4,7 +4,7 @@
   width: 1920px;
   position: relative; /* Asegura que .fondo-imagen use el .hero como referencia */
   width: 100%; /* Ajusta el ancho según sea necesario */
-  height: 580px; /* Ajusta la altura según sea necesario */
+  height: 450px; /* Ajusta la altura según sea necesario */
 }
 
 .hero .fondo-imagen {
@@ -15,6 +15,7 @@
   left: 50%; /* Coloca el borde izquierdo de la imagen en el 50% del contenedor .hero */
   transform: translate(-50%, -50%); /* Centra la imagen exactamente */
   overflow: hidden; /* Oculta el contenido que sobresale del contenedor */
+  border-bottom: 6px solid black;
 }
   .hero .content {
     width: 1920px;
@@ -56,6 +57,7 @@
 
   .hero .image{
     padding-left: 750px;
+    
   }
   
   .hero .image .circle {
@@ -72,6 +74,7 @@
   .hero .image img {
     width: 95%;
     border-radius: 50%;
+    
   }
   
   .hero .stats {

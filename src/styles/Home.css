@@ -1,3 +1,83 @@
-.contenedr-principal{
-    background-color: rgb(212, 212, 212);
+/*.contenedr-principal{
+}*/
+
+
+.cards-home{
+    background: linear-gradient( to bottom,  rgb(255, 255, 255),#cee6fd);
+    max-width: 2000px;
+}
+
+.img-carousel{
+    
+    box-shadow: 5px 5px solid rgb(41, 4, 4);
+    border-radius: 10px;
+    width: 1000px;
+    height: 600px;
+  
+}
+
+.contenedor-carousel{
+    margin-left: 200px;
+    margin-right: 200px;
+   border-radius: 10px;
+   
+    margin-bottom: 100px;
+    box-shadow: 10px 10px  rgba(8, 8, 8, 0.123);
+}
+
+.card-horiz{
+    border-radius: 10px;
+    display: flex;
+    width: 1200px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 100px;
+    box-shadow: 10px 10px  rgba(8, 8, 8, 0.123);
+    
+}
+
+.card-horiz .img{
+    margin: 10px;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    width: 400px;
+    margin-top: 100px;
+    height: 500px;
+} 
+
+.card-horiz .contenedorTexto{
+   
+    margin: 20px;
+    
+    
+}
+
+.g-3{margin: 0px;}
+
+.card-horiz .texto{
+    color: grey;
+}
+
+.img-fluid{
+    
+    height: 200px;
+    width: 400px;
+}
+
+.cards-home .img-top{
+   
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    width: 500px;
+    margin-top: 100px;
+    height: 350px;
+} 
+
+.canvasAll .offvanvas, .offcanvas-start{
+    width: 250px;
+    max-width: 250px;
+}
+
+.side-link{
+    width: 200px;
 }

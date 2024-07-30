@@ -1,15 +1,31 @@
 import React from 'react';
 import '../styles/HeroSection.css';
+import { useAuth0 } from '@auth0/auth0-react'; 
+import LoginButton from "../components/LoginButton"
 
 const HeroSection = () => {
+  const{isAuthenticated}=useAuth0()
   return (
+    
     <div className="hero">
          <img src={require("../img/header-home.jpg")} alt="Physiotherapy" className='fondo-imagen'/>
       <div className="content">
         <div className="text">
-          <h1>Hola,<br />Bienvenido a PixelGallery</h1>
-          <p>En este lugar encontraras una variedad de noticias del mundo de la fotografia. Inicia sesión o registrate para tener acceso a todo el contenido.</p>
-          <button type="button" class="btn btn-dark" >Iniciar sesion</button>
+          { isAuthenticated ?
+          <>
+            <h1>Hola,<br />Bienvenido a PixelGallery</h1>
+            <p>En este lugar encontraras una variedad de noticias del mundo de la fotografia. Gracias por formar parte de nuestra comunidad.</p>
+            
+            
+          </>
+          :
+          <>
+            <h1>Hola,<br />Bienvenido a PixelGallery</h1>
+            <p>En este lugar encontraras una variedad de noticias del mundo de la fotografia. Inicia sesión o registrate para tener acceso a todo el contenido.</p>
+            <LoginButton/>
+          
+          </>
+          }
         </div>
         <div className="image">
           <div className="circle">
