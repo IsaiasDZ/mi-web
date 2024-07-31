@@ -1,7 +1,7 @@
 import "../styles/Galeria.css"
 import React, { useState } from 'react';
 import Gallery from '../components/Gallery';
-import { Data1, Data2, Data3 } from '../database/Data-gallery';
+import { Data1, Data2, Data3, Data4 } from '../database/Data-gallery';
 import { IoMdCloseCircle } from "react-icons/io";
 
 const App = () => {
@@ -37,7 +37,23 @@ const Galeria = ({ onClick }) => {
       <div className='gallery-center'>
         <h1 className='titulo-princ'>Galeria: encuentra una variedad de imagenes y estilos</h1>
         <div className='encabezado'>
+          <p className='titulo-estilo'>Retrato</p>
+          <div className='imagenes'>
+            <div className="oscurecer">
+             
+            </div>
+          </div>
+        </div>
+        <div className='encabezado'>
           <p className='titulo-estilo'>Paisajes</p>
+          <div className='imagenes'>
+            <div className="oscurecer">
+            <Gallery Data={Data4} onClick={onClick} />
+            </div>
+          </div>
+        </div>
+        <div className='encabezado'>
+          <p className='titulo-estilo'>Plantas</p>
           <div className='imagenes'>
             <div className="oscurecer">
               <Gallery Data={Data1} onClick={onClick} />
@@ -46,9 +62,15 @@ const Galeria = ({ onClick }) => {
         </div>
         <div className='encabezado'>
           <p className='titulo-estilo'>Estructuras</p>
+          <div className="oscurecer">
+              <Gallery Data={Data3} onClick={onClick} />
+            </div>
         </div>
         <div className='encabezado'>
           <p className='titulo-estilo'>Animales</p>
+          <div className="oscurecer">
+              <Gallery Data={Data2} onClick={onClick} />
+            </div>
         </div>
       </div>
     </div>

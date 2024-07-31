@@ -12,6 +12,7 @@ import { FaBookReader } from "react-icons/fa";
 import { AiFillCamera } from "react-icons/ai";
 import { FaNewspaper } from "react-icons/fa";
 import { FaQuestionCircle } from "react-icons/fa";
+import { FaRegImages } from "react-icons/fa6";
 
 const links = [
   {
@@ -57,7 +58,7 @@ const links = [
   {
     name: "Galeria",
     href: "/galeria",
-    icon: <FaNewspaper />
+    icon: <FaRegImages />
 
   },
   {
