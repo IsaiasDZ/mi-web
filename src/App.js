@@ -66,6 +66,7 @@ function App() {
                 <Preguntas/>
               </ProtectedRoute>
             } />
+      
         <Route path="/galeria" element={
               <ProtectedRoute>
                 <Galeria/>
