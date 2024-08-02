@@ -62,6 +62,12 @@ const links = [
 
   },
   {
+    name: "Premium",
+    href: "/Premium",
+    icon: <FaRegImages />
+
+  },
+  {
     name: "Preguntas F.",
     href: "/preguntasf",
     icon: <FaQuestionCircle />

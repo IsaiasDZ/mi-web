@@ -16,6 +16,7 @@ import Preguntas from './screens/PreguntasF';
 import ProtectedRoute from './components/ProtectedRoute';
 import { useAuth0 } from '@auth0/auth0-react';
 import Galeria from './screens/Galeria';
+import Premium from "./screens/Premium";
 
 function App() {
   const { isAuthenticated } = useAuth0();
@@ -71,6 +72,11 @@ function App() {
                 <Galeria/>
               </ProtectedRoute>
             } />    
+         <Route path="/Premium" element={
+              <ProtectedRoute>
+                <Premium/>
+              </ProtectedRoute>
+            } />  
         
       </Routes>
       
