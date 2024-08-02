@@ -56,6 +56,7 @@ display:flexbox; /*CARD*/
   margin-right: 20px;
 }
 .cardP:hover {
+  
   transform: translateY(-10px);
   background-image: linear-gradient(45deg, #42bdce, rgb(214, 158, 125));
   padding: 8px 10px;
@@ -92,6 +93,7 @@ display:flexbox; /*CARD*/
 }
 
 .cardP-content p {
+  font-size: 15px;
   margin: 0 0 20px 0;
   color: #666;
 }
