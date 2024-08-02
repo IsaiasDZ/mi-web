@@ -271,7 +271,9 @@ const premiumtutoriales = [
 
 return (
   <div>
-     <h2 className='Titulo-pREP'>MAGAZINE</h2>
+    <h2 className='Titulo-pREP'>MAGAZINE</h2>
+    <div>
+     
      <h2 className='Subtitulo-pREP'>FOTOGRAFOS</h2>
  <div className="Contenedor-pREP">
   <div className="movieP-list">
@@ -309,7 +311,8 @@ return (
                 </div>
                 ))}
        </div> 
-        </div>  
+        </div> 
+        </div> 
  
 );
 

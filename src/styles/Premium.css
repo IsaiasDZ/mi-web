@@ -1,12 +1,19 @@
 .Titulo-pREP{/*CATEGORIAS*/
   font-family:Helvetica;
-color: white;
+color: rgb(255, 255, 255);
 padding: 190px;
-text-align: justify;
-background-color: url("../img/premiump2.jpg");
-font-size: 80PX;
-width: 1295px;
+text-align: center;
+align-content: center;
+align-items: center;
+justify-content: center;
+background-image: url("../img/premiump2.jpg");
+background-repeat: no-repeat;
+background-size:1920px 600px;
+font-size: 80px;
+width: 1920px;
 height: 600px;
+margin: 0;
+
 }
 
 .Subtitulo-pREP{/*CATEGORIAS*/
@@ -17,6 +24,7 @@ padding: 30px;
 padding-left: 30px;
 text-align:justify;
 font-size: 45PX;
+margin: 0;
 background: linear-gradient(90deg, rgba(118,61,29,1) 0%, rgba(179,250,242,1) 100%);
 }
 
@@ -26,13 +34,12 @@ background: linear-gradient(90deg, rgba(118,61,29,1) 0%, rgba(179,250,242,1) 100
 padding: 0px;
 height: 400px;
 display: flex;
-overflow:scroll;
+overflow:auto;
+scrollbar-color: #ffffff #f0f0f000;
+width: 1920px;
 
 }
 /* Personalización de la Barra de Desplazamiento */
-.Contenedor-pREP::-webkit-scrollbar {
-  width: 12px; /* Ancho de la barra de desplazamiento */
-}
 
 .cardP {
 display:flexbox; /*CARD*/
@@ -69,12 +76,12 @@ display:flexbox; /*CARD*/
 }
 .H2-titulo-premiumP {
   
-  font-size: 3em;
+  font-size: 20px;
   margin: 0 0 10px 0;
   font-family: Helvetica;
 }
 .cardP-content h2 {
-  font-size: 1em;
+  font-size: 20px;
   color:black;
 
 }
@@ -96,7 +103,7 @@ display:flexbox; /*CARD*/
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 1em;
+  font-size: 20px;
   transition: background-color 0.3s ease;
 }
 
