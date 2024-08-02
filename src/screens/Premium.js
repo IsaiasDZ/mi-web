@@ -285,7 +285,7 @@ return (
              <div className="cardP-content">
                <div key={entrevistasPre.id} >   <div className="cardP-content h2">
                <h2>ENTREVISTA CON <span>EL FOTOGRAFO</span></h2>
-                  <Link to={`/entrevistasPre/${entrevistasPre.id}`} className="cardP-content h2"><p>{entrevistasPre.titleP}ejemplo</p>/p></Link>    
+                  <Link to={`/entrevistasPre/${entrevistasPre.id}`} className="cardP-content h2"><p>{entrevistasPre.titleP}ejemplo</p></Link>    
                   </div>
             </div>
             </div>   
