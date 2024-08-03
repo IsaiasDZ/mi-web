@@ -271,7 +271,9 @@ const premiumtutoriales = [
 
 return (
   <div>
-     <h2 className='Titulo-pREP'>MAGAZINE</h2>
+    <h2 className='Titulo-pREP'>PixelGallery</h2>
+    <div>
+     
      <h2 className='Subtitulo-pREP'>FOTOGRAFOS</h2>
  <div className="Contenedor-pREP">
   <div className="movieP-list">
@@ -283,7 +285,7 @@ return (
              <div className="cardP-content">
                <div key={entrevistasPre.id} >   <div className="cardP-content h2">
                <h2>ENTREVISTA CON <span>EL FOTOGRAFO</span></h2>
-                  <Link to={`/entrevistasPre/${entrevistasPre.id}`} className="cardP-content h2">{entrevistasPre.titleP}</Link>    
+                  <Link to={`/entrevistasPre/${entrevistasPre.id}`} ><h2>{entrevistasPre.title}</h2></Link>    
                   </div>
             </div>
             </div>   
@@ -302,14 +304,15 @@ return (
                    <div className="cardP-content">
                      <div key={premiumtutoriales.id} >   <div className="cardP-content h2">
                      <h2>CONOCE <span> SOBRE</span></h2>
-                        <Link to={`/premiumtutoriales/${premiumtutoriales.id}`} className="cardP-content h2">{premiumtutoriales.titleP}</Link>    
+                        <Link to={`/premiumtutoriales/${premiumtutoriales.id}`}><h2>{premiumtutoriales.title}</h2></Link>    
                         </div>
                   </div>
                   </div>   
                 </div>
                 ))}
        </div> 
-        </div>  
+        </div> 
+        </div> 
  
 );
 

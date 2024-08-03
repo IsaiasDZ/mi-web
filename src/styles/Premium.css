@@ -1,12 +1,19 @@
 .Titulo-pREP{/*CATEGORIAS*/
   font-family:Helvetica;
-color: white;
+color: rgb(255, 255, 255);
 padding: 190px;
 text-align: justify;
-background-color: url("../img/premiump2.jpg");
-font-size: 80PX;
-width: 1295px;
-height: 600px;
+align-content: center;
+align-items: center;
+justify-content: center;
+background-image: url("../img/premiump2.jpg");
+background-repeat: no-repeat;
+background-size:1920px 900px;
+font-size: 80px;
+width: 1920px;
+height: 900px;
+margin: 0;
+
 }
 
 .Subtitulo-pREP{/*CATEGORIAS*/
@@ -17,6 +24,7 @@ padding: 30px;
 padding-left: 30px;
 text-align:justify;
 font-size: 45PX;
+margin: 0;
 background: linear-gradient(90deg, rgba(118,61,29,1) 0%, rgba(179,250,242,1) 100%);
 }
 
@@ -27,13 +35,14 @@ padding: 0px;
 height: 400px;
 display: flex;
 overflow:scroll;
+scrollbar-color:linear-gradient(90deg, rgba(118,61,29,1) 0%, rgba(179,250,242,1) 100%);
+width: 1920px;
 
 }
-/* Personalización de la Barra de Desplazamiento */
-.Contenedor-pREP::-webkit-scrollbar {
-  width: 12px; /* Ancho de la barra de desplazamiento */
-}
 
+.Contenedor-pREP::-webkit-scrollbar{
+ display: none;
+}
 .cardP {
 display:flexbox; /*CARD*/
   align-items: center;
@@ -49,6 +58,7 @@ display:flexbox; /*CARD*/
   margin-right: 20px;
 }
 .cardP:hover {
+  
   transform: translateY(-10px);
   background-image: linear-gradient(45deg, #42bdce, rgb(214, 158, 125));
   padding: 8px 10px;
@@ -68,23 +78,23 @@ display:flexbox; /*CARD*/
   padding-left: 0px;
 }
 .H2-titulo-premiumP {
-  
-  font-size: 3em;
+  font-size: 20px;
   margin: 0 0 10px 0;
   font-family: Helvetica;
 }
 .cardP-content h2 {
-  font-size: 1em;
+  font-size: 20px;
   color:black;
 
 }
 
-.cardP-content h2 span {
+.cardP-content Span {
   color: rgb(122, 23, 23) /* Adjust the color to match the design */
   
 }
 
 .cardP-content p {
+  font-size: 15px;
   margin: 0 0 20px 0;
   color: #666;
 }
@@ -96,7 +106,7 @@ display:flexbox; /*CARD*/
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 1em;
+  font-size: 20px;
   transition: background-color 0.3s ease;
 }
 
