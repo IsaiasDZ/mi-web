@@ -6,6 +6,7 @@ import Pagination from '../components/Pagination'
 import "../styles/Noticias.css"
 import { useState, useEffect } from 'react'
 import axios from "axios"
+import { data } from '../database/Data-noticias'
 
 const Noticias = () => {
   const [posts, setPosts] = useState([]);
@@ -16,8 +17,10 @@ const Noticias = () => {
   useEffect(() => {
       const fetchPosts = async () =>{
           setLoading(true);
-          const res = await axios.get("https://jsonplaceholder.typicode.com/posts");
-          setPosts(res.data);
+          //const res = await axios.get("https://jsonplaceholder.typicode.com/posts");
+          // Simula una solicitud de red con un retraso
+          await new Promise(resolve => setTimeout(resolve, 1000));
+          setPosts(data);
           setLoading(false);
         };
 
@@ -48,7 +51,7 @@ const Noticias = () => {
 
         <div className='contenedor-noticias'>
           <div className='elements'>
-          <h1>Página Actual: {currentPage}</h1>
+          <h5 className='pagTittle'>Página Actual: <strong>{currentPage}</strong></h5>
             <Cardnoticias posts={currentPosts} loading={loading}/>
             <Pagination className="paginationPag" postsPerPage={postsPerPage} totalPosts={posts.length} paginate={paginate} currentPage={currentPage}/>
           </div>

@@ -5,13 +5,18 @@ const Cardnoticias = ({posts, loading}) => {
       return <h2>Loading...</h2>
     }
     return (
-    <ul className='list-group '>
+    <div className=''>
         {posts.map(post => (
-          <li key={post.id} className='list-group-item'>
-            {post.title}
-          </li>
+          <div key={post.id} className='contentNews'>
+           <h1> {post.titulo}</h1>
+           <div className='textP'>
+            <p><strong>Fecha: </strong>{post.dia} de {post.mes} de {post.anio}</p>
+            <p><strong>Tema: </strong>{post.tema}</p>
+           </div>
+           <p><strong>Descripcion: </strong> <br/>{post.descripcion}</p>
+          </div>
         ))}
-    </ul>
+    </div>
   )
 }
 
