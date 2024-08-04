@@ -117,7 +117,7 @@ function App() {
                 <Premium/>
               </ProtectedRoute>
             } />  
-        { /*<Route path="/entrevistasPre/1" element={<ProtectedRoute> <Entrevistapre1/></ProtectedRoute> } />  
+        <Route path="/entrevistasPre/1" element={<ProtectedRoute> <Entrevistapre1/></ProtectedRoute> } />  
          <Route path="/entrevistasPre/2" element={<ProtectedRoute> <Entrevistapre2/></ProtectedRoute> } />  
          <Route path="/entrevistasPre/3" element={<ProtectedRoute> <Entrevistapre3/></ProtectedRoute> } />  
          <Route path="/entrevistasPre/4" element={<ProtectedRoute> <Entrevistapre4/></ProtectedRoute> } />  
@@ -156,7 +156,7 @@ function App() {
          <Route path="/premiumtutoriales/17" element={<ProtectedRoute> <Premiumtutorial17/></ProtectedRoute> } /> 
          <Route path="/premiumtutoriales/18" element={<ProtectedRoute> <Premiumtutorial18/></ProtectedRoute> } /> 
          <Route path="/premiumtutoriales/19" element={<ProtectedRoute> <Premiumtutorial19/></ProtectedRoute> } /> 
-         <Route path="/premiumtutoriales/20" element={<ProtectedRoute> <Premiumtutorial20/></ProtectedRoute> } />*/}
+         <Route path="/premiumtutoriales/20" element={<ProtectedRoute> <Premiumtutorial20/></ProtectedRoute> } />
       </Routes>
       
       
