@@ -74,7 +74,9 @@ const Card = () => {
                <p className="tipo-equipo">Tipo: {item.tipo}</p>
                <p className="texto-equipo">{item.texto}</p>
            </div>
+            <div className='content-img'>
            <img className="imagen-equipo" src={require(`../img/equipo/${item.img}`)} alt="foto-de-equipos"/>
+           </div>
        </div>
        </div>
         ))}

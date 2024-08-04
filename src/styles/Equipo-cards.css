@@ -3,7 +3,7 @@
     margin-bottom: 15px;
     margin-top: 15px;
     width: 1200px;
-   
+   height: auto;
 }
 
 .equipo-principal{
@@ -13,6 +13,7 @@
     justify-content: center;
     border-radius: 15px;
     margin-bottom: 10px;
+    height: auto;
     background-color: rgb(223, 223, 223);
     
 }
@@ -21,13 +22,14 @@
     justify-content: center;
     margin-top: 20px;
     display: flex;
-  height: 550px;
+  height: auto;
+  
 }
 
 .contenedor-texto-equipo{
     text-align: left;
     width: 780px;
-    height: 220px;
+    height: auto;
     margin-right: 40px;
     text-align: justify;
 }
@@ -51,6 +53,12 @@
     border: 2px solid black;
     border-radius: 15px;
     height: 200px;
+    
+}
+
+.content-img{
+    display: flex;
+    align-items: center;
 }
 
 
