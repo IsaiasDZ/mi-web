@@ -13,9 +13,6 @@
     z-index: 1000; /* Asegura que esté por encima de otros elementos */
   }
   
-  .App .navbar .nav-links {
-    
-  }
 
   .App .navbar .nav-links>a{
     color: #585858;

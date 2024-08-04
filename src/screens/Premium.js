@@ -302,7 +302,11 @@ return (
                    </div>
                    <div className="cardP-content">
                      <div key={premiumtutoriales.id} >   <div className="cardP-content h2">
+<<<<<<< HEAD
                      <h2>CONOCE <span> SOBRE</span></h2>   
+=======
+                     <h2>CONOCE <span> SOBRE</span></h2>
+>>>>>>> 8cad04fd0103590b24131b24d17544ce97f92100
                         <Link to={`/premiumtutoriales/${premiumtutoriales.id}`}><h2>{premiumtutoriales.title}</h2></Link>    
                         </div>
                   </div>
