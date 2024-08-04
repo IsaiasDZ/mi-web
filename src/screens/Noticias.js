@@ -36,7 +36,7 @@ const Noticias = () => {
         subtitulo="Explora Opiniones y Reseñas de los Mejores Libros para Fotógrafos de Todos los Niveles"
         
         imagen={Imagen}
-          alt="Noticias"z
+          alt="Noticias"
           titulo="Noticias"
           />
       </div>
