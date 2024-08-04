@@ -2,27 +2,16 @@
   font-family:Helvetica;
 color: rgb(255, 255, 255);
 padding: 190px;
-<<<<<<< HEAD
 text-align: justify;
-=======
-text-align: center;
->>>>>>> 7fea0f2e2fe4cb804fe1d003471080d6cf59138a
 align-content: center;
 align-items: center;
 justify-content: center;
 background-image: url("../img/premiump2.jpg");
 background-repeat: no-repeat;
-<<<<<<< HEAD
 background-size:1920px 900px;
 font-size: 80px;
 width: 1920px;
 height: 900px;
-=======
-background-size:1920px 600px;
-font-size: 80px;
-width: 1920px;
-height: 600px;
->>>>>>> 7fea0f2e2fe4cb804fe1d003471080d6cf59138a
 margin: 0;
 
 }
@@ -45,20 +34,11 @@ background: linear-gradient(90deg, rgba(118,61,29,1) 0%, rgba(179,250,242,1) 100
 padding: 0px;
 height: 400px;
 display: flex;
-<<<<<<< HEAD
 overflow:scroll;
 scrollbar-color:linear-gradient(90deg, rgba(118,61,29,1) 0%, rgba(179,250,242,1) 100%);
 width: 1920px;
 
 }
-=======
-overflow:auto;
-scrollbar-color: #ffffff #f0f0f000;
-width: 1920px;
-
-}
-/* Personalización de la Barra de Desplazamiento */
->>>>>>> 7fea0f2e2fe4cb804fe1d003471080d6cf59138a
 
 .Contenedor-pREP::-webkit-scrollbar{
  display: none;
@@ -98,10 +78,6 @@ display:flexbox; /*CARD*/
   padding-left: 0px;
 }
 .H2-titulo-premiumP {
-<<<<<<< HEAD
-=======
-  
->>>>>>> 7fea0f2e2fe4cb804fe1d003471080d6cf59138a
   font-size: 20px;
   margin: 0 0 10px 0;
   font-family: Helvetica;

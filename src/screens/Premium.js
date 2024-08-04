@@ -271,13 +271,8 @@ const premiumtutoriales = [
 
 return (
   <div>
-<<<<<<< HEAD
     <h2 className='Titulo-pREP'>PixelGallery</h2>
-=======
-    <h2 className='Titulo-pREP'>MAGAZINE</h2>
->>>>>>> 7fea0f2e2fe4cb804fe1d003471080d6cf59138a
     <div>
-     
      <h2 className='Subtitulo-pREP'>FOTOGRAFOS</h2>
  <div className="Contenedor-pREP">
   <div className="movieP-list">
@@ -289,11 +284,7 @@ return (
              <div className="cardP-content">
                <div key={entrevistasPre.id} >   <div className="cardP-content h2">
                <h2>ENTREVISTA CON <span>EL FOTOGRAFO</span></h2>
-<<<<<<< HEAD
                   <Link to={`/entrevistasPre/${entrevistasPre.id}`} ><h2>{entrevistasPre.title}</h2></Link>    
-=======
-                  <Link to={`/entrevistasPre/${entrevistasPre.id}`} className="cardP-content h2"><p>{entrevistasPre.titleP}ejemplo</p></Link>    
->>>>>>> 7fea0f2e2fe4cb804fe1d003471080d6cf59138a
                   </div>
             </div>
             </div>   
@@ -311,23 +302,17 @@ return (
                    </div>
                    <div className="cardP-content">
                      <div key={premiumtutoriales.id} >   <div className="cardP-content h2">
-                     <h2>CONOCE <span> SOBRE</span></h2>
-<<<<<<< HEAD
+                     <h2>CONOCE <span> SOBRE</span></h2>   
                         <Link to={`/premiumtutoriales/${premiumtutoriales.id}`}><h2>{premiumtutoriales.title}</h2></Link>    
-=======
-                        <Link to={`/premiumtutoriales/${premiumtutoriales.id}`} className="cardP-content p">{premiumtutoriales.titleP}</Link>    
->>>>>>> 7fea0f2e2fe4cb804fe1d003471080d6cf59138a
                         </div>
                   </div>
                   </div>   
                 </div>
                 ))}
        </div> 
-        </div> 
-        </div> 
- 
+        </div>  
+        </div>     
 );
 
 }
-
 export default EntrevistasPre;

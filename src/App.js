@@ -47,7 +47,7 @@ import Premiumtutorial7 from './components/Premiumtutorial7';
 import Premiumtutorial8 from './components/Premiumtutorial8';
 import Premiumtutorial9 from './components/Premiumtutorial9';
 import Premiumtutorial10 from './components/Premiumtutorial10';
-import Premiumtutorial11 from "./components/Entrevistaspre11";
+import Premiumtutorial11 from "./components/Premiumtutorial11";
 import Premiumtutorial12 from './components/Premiumtutorial12';
 import Premiumtutorial13 from './components/Premiumtutorial13';
 import Premiumtutorial14 from './components/Premiumtutorial14';
@@ -149,7 +149,7 @@ function App() {
          <Route path="/premiumtutoriales/10" element={<ProtectedRoute> <Premiumtutorial10/></ProtectedRoute> } /> 
          <Route path="/premiumtutoriales/11" element={<ProtectedRoute> <Premiumtutorial11/></ProtectedRoute> } /> 
          <Route path="/premiumtutoriales/12" element={<ProtectedRoute> <Premiumtutorial12/></ProtectedRoute> } /> 
-         <Route path="/premiumtutoriales/13" element={<ProtectedRoute> <Premiumtutorial3/></ProtectedRoute> } /> 
+         <Route path="/premiumtutoriales/13" element={<ProtectedRoute> <Premiumtutorial13/></ProtectedRoute> } /> 
          <Route path="/premiumtutoriales/14" element={<ProtectedRoute> <Premiumtutorial14/></ProtectedRoute> } /> 
          <Route path="/premiumtutoriales/15" element={<ProtectedRoute> <Premiumtutorial15/></ProtectedRoute> } /> 
          <Route path="/premiumtutoriales/16" element={<ProtectedRoute> <Premiumtutorial16/></ProtectedRoute> } /> 
