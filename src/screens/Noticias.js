@@ -33,7 +33,7 @@ const Noticias = () => {
 
       <HeroSection2
 
-        subtitulo="Explora Opiniones y Reseñas de los Mejores Libros para Fotógrafos de Todos los Niveles"
+        subtitulo="HOla Opiniones y Reseñas de los Mejores Libros para Fotógrafos de Todos los Niveles"
         
         imagen={Imagen}
           alt="Noticias"
