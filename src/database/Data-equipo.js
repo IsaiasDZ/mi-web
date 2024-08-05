@@ -62,124 +62,124 @@ const Data = [
     },
     {
       img: "lentes1.jpg",
-      titulo: "Canon RF 24-70mm f/2.8L IS USM",
+      titulo: "RF-S 18-150mm f/3.5-6.3 IS STM",
       tipo: "Lentes",
-      texto: "Este lente de Canon es versátil y ofrece una apertura constante de f/2.8, ideal para diversas situaciones de disparo."
-    },/*
-    {
-      img: "lentes2.jpg",
-      titulo: "Nikon Z 70-200mm f/2.8 VR S",
-      tipo: "Lentes",
-      texto: "Un teleobjetivo de alta calidad para cámaras sin espejo de Nikon, perfecto para fotografía de deportes y vida silvestre."
+      texto: "Al tiempo que prepara el camino para nuestra línea de lentes RF-S, el RF-S 18-150mm f/3.5-6.3 IS STM es un lente completo ideal para la fotografía creativa y las películas. El lente RF-S 18-150mm f/3.5-6.3 IS STM combina la legendaria óptica de Canon con un rango de zoom versátil y un funcionamiento silencioso que ofrece flexibilidad sobre la marcha. Este lente fue diseñado teniendo en cuenta los sensores APS-C más pequeños y, cuando se instala en una cámara EOS R de cuadro completo, se activa automáticamente el Modo de Recorte 1.6x. Ofrece una cobertura del AF del CMOS de Píxeles Duales del 100% x 100% para sensores APS-C y una cobertura del AF del CMOS de Píxeles Duales del 80% x 80% para sensores de cuadro completo (en Modo de Recorte). Con un rendimiento extraordinario para el uso diario, el motor de pasos de tipo tornillo guía (STM) ayuda a garantizar un enfoque automático suave y un funcionamiento silencioso que le permite capturar vídeos con excelente audio y con un ruido de fondo mínimo para no distraer al sujeto en una situación de toma silenciosa. La estabilización óptica de imagen proporciona hasta 4.5 pasos de corrección y hasta 6.5 pasos con IS coordinado. Esta estabilización de imagen avanzada puede dar lugar a fotografías más nítidas con un mínimo de desenfoque, incluso en situaciones de poca luz. El lente RF-S 18–150mm f/3.5–6.3 IS STM ofrece gran versatilidad con su magnífica óptica, rango de zoom completo y diseño flexible para paisajes, retratos, vídeos deportivos y todo lo que se pueda imaginar."
     },
     {
-      img: "lentes3.jpg",
-      titulo: "Sony FE 50mm f/1.8",
+      img: "lentes2.jpg",
+      titulo: "RF-S 55-210mm f/5-7.1 IS STM",
       tipo: "Lentes",
-      texto: "Un lente prime asequible para cámaras sin espejo de Sony, conocido por su excelente rendimiento en condiciones de poca luz."
+      texto: "El lente RF-S 55-210mm f/5-7.1 IS STM de zoom telefoto es una opción excelente para fotógrafos y videógrafos que buscan añadir versatilidad y alcance a su colección de lentes. Compacto y ligero con estabilización óptica de imagen hasta 4.5* pasos equivalentes de corrección de movimiento y hasta 7.0* pasos equivalentes de corrección de movimiento cuando se combina con cámaras de la Serie EOS R con estabilizador de imagen integrado (IBIS). Amplía significativamente el alcance de la cámara, capturando imágenes nítidas de objetos lejanos, incluso sin trípode. Cuenta con el increíble motor de pasos STM de Canon compatible con Servo AF para Vídeo de Canon que brinda ajustes de enfoque suaves, silenciosos y continuos. El lente RF-S 55-210mm f/5-7.1 IS STM cuenta con dos elementos de lente UD que reducen la aberración cromática, lo que ayuda a lograr una excelente calidad de imagen con alta resolución y contraste. La apertura circular de 7 cuchillas brinda fondos hermosos y suaves. El lente RF-S 55-210mm f/5-7.1 IS STM tiene un diseño compacto gracias a un sistema de zoom mecánico de seis grupos que proporciona una ampliación máxima de 0.28x en el extremo telefoto y una distancia mínima de enfoque de 2.4 pies/0.73 m (a 210 mm) y 3.2 pies/1.0 m (a 55 mm)."
+    },
+   {
+      img: "lentes3.jpg",
+      titulo: "RF-S 18-45mm f/4.5-6.3 IS STM",
+      tipo: "Lentes",
+      texto: "Como parte de nuestra nueva línea de lentes RF-S, el RF-S 18-45mm f/4.5-6.3 IS STM le ofrece la flexibilidad que desea sin ocupar toda la bolsa de la cámara. Este lente fue diseñado teniendo en cuenta los sensores APS-C más pequeños y, cuando se instala en una cámara EOS R de cuadro completo, se activa automáticamente el Modo de Recorte 1.6x. Ofrece una cobertura del AF del CMOS de Píxeles Duales del 100% x 100% para sensores APS-C y una cobertura del AF del CMOS de Píxeles Duales del 80% x 80% para sensores de cuadro completo (en Modo de Recorte). El pequeño tamaño del RF-S 18-45mm f/4.5-6.3 IS STM y su inteligente mecanismo de retracción permiten que quepa en casi cualquier lugar, por lo que es un gran lente para llevar de paseo o adondequiera que lo lleve el día. El motor de pasos de tipo tornillo guía (STM) ayuda a garantizar un enfoque automático suave y un funcionamiento silencioso que le permite capturar vídeos con excelente audio y con un ruido de fondo mínimo para no distraer al sujeto en una situación de toma silenciosa. La estabilización óptica de imagen proporciona hasta 4 pasos de corrección y hasta 6 pasos con IS coordinado. Esta estabilización de imagen avanzada puede dar lugar a fotografías más nítidas con un mínimo de desenfoque, incluso en situaciones de poca luz. Si suma todo esto, obtendrá un lente maravilloso, ligero y versátil que está diseñado para adaptarse a su vida."
     },
     {
       img: "lentes4.jpg",
-      titulo: "Sigma 35mm f/1.4 DG HSM Art",
+      titulo: "RF 1200mm f/8L IS USM",
       tipo: "Lentes",
-      texto: "Un lente prime de alta calidad de Sigma, ideal para fotografía de retratos y paisajes con un excelente bokeh."
+      texto: "El lente supertelefoto RF 1200mm f/8L IS USM de longitud focal fija es el lente telefoto más largo de la línea del sistema EOS R** de Canon, lo que lo convierte en una excelente elección para cualquier uso de larga distancia, como deportes al aire libre, la vida silvestre, el periodismo fotográfico y mucho más, donde desee crear un impacto de supertelefoto. Dos elementos de fluorita de gran diámetro, un elemento super UD (dispersión ultrabaja) y un elemento de vidrio UD, y el Recubrimiento Esférico de Aire (ASC) se combinan para brindar un rendimiento óptico excelente. La longitud focal de 1200 mm proporciona fondos increíblemente suaves de forma natural. Su compatibilidad con los extensores RF 1.4x y RF 2x aumenta su longitud focal efectiva a unos asombrosos 1680 mm y 2400 mm. Finalmente, cuenta con estabilización de imagen, proporcionando hasta 4 pasos de corrección óptica para el movimiento de la cámara. Con un peso de 7.4 lb, el RF 1200mm f/8L IS USM es sorprendentemente ligero, lo que le proporciona una facilidad de manejo increíble junto con sus potentes capacidades de supertelefoto."
     },
-    {
+   {
       img: "lentes5.jpg",
-      titulo: "Tamron 28-75mm f/2.8 Di III RXD",
+      titulo: "RF 800mm f/11 IS STM",
       tipo: "Lentes",
-      texto: "Este lente de Tamron es una opción popular para fotógrafos que buscan un zoom estándar ligero y asequible."
+      texto: "El súper-telefoto RF 800mm f/11 IS STM proporciona una distancia focal larga de 800 milímetros y es el primer súper-telefoto compacto y liviano de 800mm en la línea de RF. Este lente es ideal para fotografiar aves, vida silvestre, deportes al aire libre y aviación – o cuando solo desea acercar esos sujetos en la distancia. El objetivo RF 800mm f/11 IS STM presenta un sistema de enfoque STM ideal para un enfoque rápido y silencioso al seguir sujetos evasivos en la naturaleza. Además, su sistema óptico de estabilización de imagen con hasta 4 paradas de corrección* de movimiento hace que sea fácil de usar a mano o con un mono-pié. Este lente también compatible con los extensores^ RF 1.4X y 2.0X para aumentar su distancia focal a un asombroso 1120mm o 1600mm respectivamente."
     },
     {
       img: "lentes6.jpg",
-      titulo: "Fujifilm XF 16-55mm f/2.8 R LM WR",
+      titulo: "RF 600mm f/11 IS STM",
       tipo: "Lentes",
-      texto: "Un lente zoom de alta calidad para cámaras Fujifilm X, ofreciendo una excelente nitidez y resistencia a la intemperie."
+      texto: "El lente súper-telefoto RF 600mm f/11 IS STM proporciona una longitud focal larga de 600 milímetros y es el primer súper-telefoto compacto y liviano de 600mm en la línea de RF. Este lente es ideal al fotografiar aves, vida silvestre, deportes al aire libre o aviación. Su tamaño y diseño retráctil lo convierten en una opción altamente portátil que se puede guardar fácilmente en una bolsa de cámara. El sistema óptico de estabilización de imagen incorpora hasta 5 paradas de corrección* de movimiento hace que sea fácil de usar a mano o con un mono-píe. El lente RF 600mm f/11 IS STM es compatible con los extensores^ RF 1.4X o 2.0X para aumentar su distancia focal a 840mm o 1200mm respectivamente."
     },
     {
       img: "lentes7.jpg",
-      titulo: "Olympus M.Zuiko Digital ED 12-40mm f/2.8 PRO",
+      titulo: "RF 200-800mm f/6.3-9 IS USM",
       tipo: "Lentes",
-      texto: "Un lente zoom profesional para cámaras Micro Four Thirds, conocido por su durabilidad y calidad óptica."
+      texto: "El RF 200-800mm f/6.3-9 IS USM es un lente versátil, que combina una poderosa capacidad telefoto y estabilización de imagen en un diseño portátil que muchos usuarios podrán manejar sin utilizar un trípode. El lente pesa alrededor de 4.5 libras y su estabilización de imagen ofrece hasta 5.5 pasos de corrección de movimiento**, para obtener estabilidad si usted está sosteniéndolo con la mano, o trabajando con un monópode. El RF 200-800mm f/6.3-9 IS USM puede ayudarle a elevar su contenido, ya sea sobre la vida silvestre, las aves y la naturaleza, o sobre deportes al aire libre como el surf, el golf, el béisbol, los deportes de motor, etc."
     },
     {
       img: "lentes8.jpg",
-      titulo: "Pentax D FA* 50mm f/1.4 SDM AW",
+      titulo: "RF 135mm f/1.8L IS USM",
       tipo: "Lentes",
-      texto: "Un lente prime de alta calidad para cámaras Pentax, ideal para retratos con una excelente construcción y rendimiento óptico."
+      texto: "El lente telefoto mediano RF 135mm f/1.8L IS USM realmente mejora su juego de fotografía al realizar tomas de retratos o incluso deportes, gracias a la óptica de alta calidad y a las características de la Serie L. El lente EF 135mm de Canon ha sido uno de los favoritos de los fotógrafos durante más de 25 años, y esta versión RF se basa en ese legado al utilizar un diseño óptico totalmente nuevo, y las ópticas y características más recientes para llevarlo realmente al futuro. La calidad óptica de este lente es impresionante con 17 elementos en 12 grupos, incluidos tres elementos de cristal UD y el Recubrimiento Esférico de Aire (ASC) para reducir la aberración cromática y las imágenes fantasma. La apertura f/1.8 brillante también hace maravillas en sus imágenes. No solo puede conseguir fondos hermosos y suaves, sino que transforma su capacidad para realizar tomas de imágenes de telefoto o vídeo con poca luz. El RF 135mm f/1.8 Macro IS USM también cuenta con estabilización óptica de imagen integrada (nunca antes visto en un lente Canon de 135 mm) para mejorar sus habilidades de toma con poca luz proporcionando hasta 5.5 pasos* de corrección óptica de movimiento y hasta 8 pasos* con IS coordinado. Dos botones de funciones del lente programables en la parte superior y al lado del cilindro del lente permiten un acceso instantáneo para bloquear temporalmente el Servo AF, o una gran cantidad de otras posibles características de la cámara."
     },
     {
       img: "lentes9.jpg",
-      titulo: "Leica Summilux-M 50mm f/1.4 ASPH",
+      titulo: "RF 5.2mm f/2.8L Dual Fisheye",
       tipo: "Lentes",
-      texto: "Un lente prime de alta gama para cámaras Leica, ofreciendo una excelente calidad de imagen y rendimiento en baja luz."
+      texto: "Agregue una dimensión completamente nueva a su historia con el lente RF 5.2mm f/2.8L Dual Fisheye. Como parte del Sistema de Realidad Virtual EOS, este lente se combina con la EOS R5 actualizada con el firmware 1.5.0 o superior y una de las soluciones de software de realidad virtual de Canon, lo que permite crear imágenes en 3D inmersivas que se pueden experimentar al visualizarlas en pantallas en forma de visor, como el Oculus Quest 2 y otros.* Los espectadores podrán contemplar la escena con un campo de visión amplio y vívido con solo mover la cabeza. Se trata del primer lente digital intercambiable del mundo que puede capturar tomas de realidad virtual estereoscópicas en 3D de 180° en un solo sensor de imagen.*^ Ahora, los creadores pueden evolucionar de las fotografías tradicionales o la grabación de vídeo a la captura estereoscópica en 3D con un sencillo cambio de lente. La combinación de este lente con la cámara EOS R5 ofrece una grabación de vídeo de alta resolución de hasta 8K DCI 30p y 4K DCI 60p. Con un diseño óptico plegado perfectamente desarrollado, los lentes ojo de pez dobles de alto rendimiento de la serie L combinan las imágenes en un único sensor de imagen ofreciendo resultados impresionantes en un solo archivo. Esto puede ayudar a simplificar el flujo de trabajo al eliminar la necesidad de sincronizar y unir varios archivos de vídeo. Como parte integral del Sistema de Realidad Virtual EOS, el software EOS VR Utility de Canon puede convertir fácilmente las secuencias en el software de edición que elija. Para los usuarios de Adobe® Premiere Pro®, el software complementario EOS VR puede ayudarle a automatizar el proceso de edición. Ambas soluciones de software de pago por suscripción (actualmente en desarrollo con disponibilidad y detalles a conocer en o a principios de 2022) permiten una cómoda posproducción."
     },
     {
       img: "lentes10.jpg",
-      titulo: "Panasonic Lumix G 25mm f/1.7 ASPH",
+      titulo: "RF 70-200mm f/4L IS USM",
       tipo: "Lentes",
-      texto: "Un lente prime asequible para cámaras Micro Four Thirds, ideal para fotografía diaria y retratos."
-    },*/
+      texto: "El RF 70-200mm f/4L IS USM es un lente con zoom telefoto que ofrece una calidad de imagen impresionante junto con una excelente movilidad como nuestro lente 70-200mm f/4 más corto y ligero a la fecha. Diseñado para el sistema EOS R, este lente aprovecha el gran diámetro de la montura y la corta distancia de enfoque posterior de la montura RF para mantener una alta calidad de imagen mientras es más compacto y portátil, por lo que se inclinará aún más a llevarlo en sus viajes. Los resultados son impresionantes gracias a los 4 lentes UD que ayudan a corregir la aberración cromática y a mantener los colores vivos, a reducir las imágenes fantasma debido al Recubrimiento Esférico de Aire (ASC) y a la Estabilización Óptica de Imagen*, además del Estabilizador Óptico de Imagen coordinado y el Estabilizador de Imagen integrado** para obtener imágenes increíblemente claras y nítidas a velocidades bajas del obturador y secuencias de vídeo fluidas. Además, los dos motores Nano USM contribuyen a una corta distancia mínima de enfoque, a un enfoque automático de alta velocidad para tomar fotografías y a un enfoque automático suave y casi silencioso durante la grabación de vídeos. Estas características y más, combinadas con la confianza para realizar tomas en casi cualquier condición con sellos resistentes al polvo y al clima y revestimiento de flúor, convierten al lente RF 70-200mm f/4L IS USM en un sólido producto para cualquier situación."
+    },
     {
       img: "accesorios1.jpg",
-      titulo: "Manfrotto Befree Advanced Tripod",
+      titulo: "Soporte de cámara de escritorio de 17-41",
       tipo: "Accesorios",
-      texto: "Un trípode de viaje compacto y ligero, ideal para fotógrafos que necesitan estabilidad en sus disparos mientras están en movimiento."
-    },/*
+      texto: "Soporte ajustable: el soporte para cámara de escritorio ALTSON tiene 3 extensiones, la altura se puede ajustar de 17 a 41 pulgadas con el pomo fijo, perfecto para ahorrar espacio. Se puede utilizar perfectamente para maquillaje, entrevistas, iluminación, transmisión en vivo, grabación de video, etc. Clips estables de silicona para mesa: este soporte de luz de escritorio de aluminio con clips de mesa de silicona se puede extender hasta 2.2 pulgadas, es perfecto para soportar luces de anillo, teléfono, micrófonos, luces de panel. Compatible con la mayoría de las mesas del mercado, no daña la mesa y proporciona una mayor estabilidad. El soporte de montaje de escritorio está equipado con 1 cabezal de bola de metal adicional de alta calidad para permitir que tus dispositivos giren libremente 360° hacia adelante y hacia atrás o se inclinen hacia arriba y hacia abajo 90°, para un posicionamiento flexible. Fácil instalación: se proporcionan todos los accesorios e instrucciones necesarios para un montaje rápido y sencillo. La abrazadera de escritorio proporciona un soporte estable para tu luz o cámara y hace que la configuración sea muy fácil. Lo que obtienes: 2 soportes de aluminio, 2 soportes para teléfono, 2 tornillos de conversión de 3/8, 2 cabezales de bola 4/1, 2 cabezales de bola 4/1, si tienes algún problema, nuestro equipo te ayudará a resolver el problema en 24 horas."
+    },
     {
       img: "accesorios2.jpg",
-      titulo: "Peak Design Everyday Backpack",
+      titulo: "Bonfoto-B671",
       tipo: "Accesorios",
-      texto: "Una mochila versátil y bien diseñada, perfecta para transportar equipo fotográfico y accesorios de forma segura y organizada."
+      texto: "Compacto y resistente: hecho de aleación de aluminio, funciona estable con patas de 4 secciones; se puede plegar a 15.4  compacto para transportar; el máximo. La capacidad de carga es de 17.6 libras (17.6 lbs), por lo que es libre de preocupaciones para agregar lentes pesados. Cabeza de bola única: Plataforma triangular con brújula y nivel de burbuja, excelente para uso en exteriores; escalas precisas en la base de panorámica para disparos precisos; cabeza de bola extraíble con rosca universal de 3/8  equipado con placa de liberación rápida Doble uso: La pierna con espuma se puede quitar y unir con la columna central para trabajar como un monopie o bastones de trekking. Diseño exclusivo: nivel de burbuja doble colocado por separado en la horquilla y la plataforma, realizando disparos precisos; la perilla de 3 bordes hace que sea conveniente ajustar la columna central; el sistema de ajuste del ángulo de la pierna de dos posiciones proporciona disparos seguros y resistentes"
     },
     {
       img: "accesorios3.jpg",
-      titulo: "SanDisk Extreme PRO SDXC UHS-I Card",
+      titulo: "LED RGB magnética Luz de cámara LED 360°",
       tipo: "Accesorios",
-      texto: "Una tarjeta de memoria de alta velocidad, ideal para grabación de video 4K y disparo continuo de fotos de alta resolución."
+      texto: "Luz de video LED RGB compacta: esta luz de cámara RGB solo pesa 0.35 onzas con tamaño de bolsillo, adopta 60 cuentas LED de alta reproducción de color con un máximo de 800 LUX/1.6 ft, ángulo de iluminación de hasta 120°, CRI>95. Se puede utilizar como una luz regular o una luz ambiental de fondo fresco para cualquier sesión rápida. Gran energía en un cuerpo de luz pequeño. Modo RGB y CCT y pantalla LCD: la luz LED tiene 2 modos, RGB y temperatura de color correlacionada (CCT). Tono ajustable de 0 grados a 359 grados, soporta 360° RGB a todo color. Rango de temperatura de color de 2500 K (cálido) a 9000 K (frío), brillo de 0 a 100% regulable. La pantalla LCD ofrece lecturas precisas. En modo RGB E, se selecciona el color estableciendo un número de grados de 0 a 360.Hay una etiqueta en la luz (utiliza un modelo de color HSV estándar) que muestra el mapeo de colores a grados. 3 soportes de zapata fría y tornillo estándar de 1/4: está diseñado con 3 soportes de zapata fría en el lateral, por lo que puedes conectar un montón de estas luces juntas para obtener mejores efectos de iluminación. Un orificio de tuerca estándar de 1/4 en la parte inferior soporta conectado a diferentes soportes de fotografía. Batería recargable: batería recargable de iones de litio de 2000 mAh incorporada, lo suficientemente grande como para alimentar esta luz con un brillo máximo durante aproximadamente 2 horas, el cable de carga es USB tipo C, que es más rápido que el USB normal. El puerto USB C carga esta luz aproximadamente en las mismas 2 horas. Amplia compatibilidad: la luz de video LED es compatible con cámaras DSLR, videocámaras, trípodes y soportes de luz, panel de luz suave para Sony ZV-1 A7 III RX100 VII Canon G7X III A6400 Cámara GoPro 9/8/7/6/5 Vlogging. Es ideal para selfies, vlogs, bodegones, luces de ambiente de fiesta, retrato, Fotografía infantil y yout... videografía ube,toneladas de usos."
     },
     {
       img: "accesorios4.jpg",
-      titulo: "Godox V1 Flash",
+      titulo: "SanDisk Tarjeta de memoria Extreme PRO SDXC",
       tipo: "Accesorios",
-      texto: "Un flash compacto y potente con una cabeza redonda, proporcionando una iluminación natural y suave para fotografía de retratos."
+      texto: "Ahorra tiempo con velocidades de descarga de tarjetas de hasta 200 MB/s con tecnología SanDisk QuickFlow (velocidades de lectura de hasta 200 MB/s, diseñadas con tecnología patentada para alcanzar velocidades más allá de UHS-I 104 MB/s, requieren dispositivos compatibles capaces de alcanzar tales velocidades. Basado en pruebas internas; el rendimiento puede ser menor dependiendo del dispositivo host, la interfaz, las condiciones de uso y otros factores. 1MB = 1.000.000 bytes. X = 150KB/seg. La tecnología QuickFlow de SanDisk solo está disponible para capacidades de 64 GB, 128 GB, 256 GB, 512 GB y 1 TB. 1GB = 1.000.000.000 bytes. 1TB = 1.000.000.000.000 bytes. Menos almacenamiento real del usuario) Combínalo con el SanDisk Professional PRO-READER SD y microSD para lograr velocidades máximas (se venden por separado). Velocidades de disparo de hasta 140MB/s (velocidad de escritura de hasta 140MB/s. Basado en pruebas internas; el rendimiento puede ser menor dependiendo del dispositivo host, la interfaz, las condiciones de uso y otros factores. 1MB = 1.000.000 bytes. X = 150 KB/seg.). Perfecto para grabar video 4K UHD y fotografía en modo de ráfaga secuencial (Full HD (1920x1080) y 4K UHD (3840 x 2160), el soporte de video puede variar según el dispositivo host, los atributos de archivo y otros factores. Ver página HD en el sitio de SanDisk. La clase de velocidad UHS 3 (U3) y la clase de velocidad de video 30 (V30) (UHS Speed Class 3 designan una opción de rendimiento diseñada para admitir la grabación de video 4K UHD con dispositivos host UHS habilitados). UHS Video Speed Class 30 (V30), velocidad de captura de video sostenida de 30MB/s, designa una opción de rendimiento diseñada para soportar la grabación de video en tiempo real con dispositivos host habilitados para UHS. Consulte el sitio web oficial de la Asociación SD)"
     },
     {
       img: "accesorios5.jpg",
-      titulo: "Tiffen Variable ND Filter",
+      titulo: "Movo VXR10 - Micrófono universal de escopeta para cámara",
       tipo: "Accesorios",
-      texto: "Un filtro ND variable que permite a los fotógrafos controlar la exposición en diversas condiciones de luz, ideal para fotografía de paisajes."
+      texto: "Compatibilidad universal: micrófono externo para iPhone, Android, cámaras, videocámaras, grabadoras de audio, tabletas y portátiles. Úsalo como micrófono para iPhone, micrófono DSLR o micrófono de cámara. MICRO Movo PROFESIONAL: La construcción de aluminio duradera y el diseño sin batería incluyen un soporte de choque integrado resistente para minimizar el ruido de manejo. CREAR: Micrófono de escopeta compacto esencial para grabar Vlogs de YouTube, Tik Tok, entrevistas, viajes de vacaciones familiares, música en vivo, eventos al aire libre, tutoriales. INCLUYE: Parabrisas peludo Deadcat, funda de transporte suave, cable de salida TRS de 0.138 in (para cámaras DSLR, videocámaras, grabadoras), cable de salida TRRS de 0.138 in (para teléfonos inteligentes, tabletas y Mac). Movo, Un fabricante con sede en Los Ángeles, lleva una gama completa de equipos innovadores para creadores de contenido y apoya con orgullo a la comunidad de creación de contenido."
     },
     {
       img: "accesorios6.jpg",
-      titulo: "Rode VideoMic Pro+",
+      titulo: "ED de transmisión de estudio con 70 cuentas y filtro de color para cámara",
       tipo: "Accesorios",
-      texto: "Un micrófono de calidad profesional para cámaras, ofreciendo una excelente captura de audio para video y entrevistas."
+      texto: "【Múltiples filtros de color y brillo ajustable】Proporciona 18 filtros de color (9 colores) para crear efectos de iluminación coloridos; esta luz de estudio mejorada, equipada con 70 bombillas LED de ahorro de energía, hace que la luz sea más abundante y reduce sombras innecesarias; cuenta con una temperatura de color de 5600 K y un alto CRI de 95+ para una reproducción precisa del color; botón arriba y abajo ajusta fácilmente el brillo en un rango. De 10 A 100%, fotografía para satisfacer diferentes circunstancias, ilumina tus trabajos.【Panel de luz y cable de alimentación USB】Panel de luz LED compacto ultrafino es cómodo de llevar. Movimiento inteligente a puertos USB para alimentar la unidad con cargador de pared de 5V, 2A Dc, banco de energía o cargador de coche mientras se usa. No necesita un cargador independiente o baterías adicionales grandes ahorra tiempo al planificar y prepararse para una toma.【Soporte de trípode ajustable y ángulos de rotación de 180°】Hecho de aluminio negro duradero, soporte se eleva a una altura de 52 pulgadas y se pliega hasta 16.5 pulgadas para almacenamiento y transporte; 3 pomos de tornillo diseñados que ayudan a ajustar la altura, aprieta el tornillo para garantizar que el poste no se deslice cuando se usa; marco de soporte inferior de mano anticorte para proteger los dedos. El soporte está rematado con una rosca de 1/4 -20 que es fácil de fijar el panel de luz, el otro lado del tornillo con un cardán de cabeza esférica de 360° para girar el ángulo del panel de luz en un rango de 180°.【Amplia aplicación】Equipo necesario para estudio, mesa, video, fotografía, cámara, cabina de fotos 360, disparo de ángulo bajo, retrato, transmisión de juegos en vivo, colección creativa, vlogging, aplicaciones de podcast de Youtube. Lista de paquetes y servicio al cliente】18 filtros de color (9 colores), 2 paneles de luz LED de estudio con cable y soporte de trípode ajustable, 2 manuales de usuario (idioma español no garantizado). No dudes en ponerte en contacto con nosotros si tienes cualquier problema con el producto."
     },
     {
       img: "accesorios7.jpg",
-      titulo: "DJI Ronin-S",
+      titulo: "Bolsa AlturaPhoto",
       tipo: "Accesorios",
-      texto: "Un estabilizador de cámara de tres ejes, proporcionando movimientos suaves y estabilizados para grabaciones de video."
+      texto: "ALTURA PHOTO eslinga bolsa de cámara. Bolsas de cámara para fotógrafos con separadores acolchados ajustables: El compartimento principal tiene divisores resistentes, acolchados y ajustables. Sostiene cámaras DSLR con un objetivo zoom estándar. Perfecto para regalos de fotógrafos. BOLSA DE CÁMARA DSLR CON APERTURA LATERAL DE ACCESO RÁPIDO: Nuestro compartimento principal de mochila DSLR tiene una cómoda apertura lateral con cremallera. MOCHILA DE CÁMARA PARA MUJERES Y HOMBRES con correa acolchada gira hacia delante: El cómodo diseño de la eslinga permite una rotación rápida desde la parte posterior hasta la parte delantera de su cuerpo, lo que le da un acceso fácil y rápido a su equipo. BOLSA DE CÁMARA PEQUEÑA CON ALMACENAMIENTO DE ACCESORIOS: El compartimento superior le permite colocar lentes adicionales o unidades de flash. Soporte exterior para trípode/monopié. Bolsillos de malla con cremallera en ambos compartimentos. Satisfacción garantizada: respaldada por nuestra garantía de satisfacción de 90 días."
     },
     {
       img: "accesorios8.jpg",
-      titulo: "Wacom Intuos Pro Tablet",
+      titulo: "UBeesize Trípode extensible",
       tipo: "Accesorios",
-      texto: "Una tableta gráfica de alta calidad, ideal para la edición de fotos y creación de contenido digital con precisión."
+      texto: "Diseño 3 en 1: Funciona como trípode, selfie stick y soporte para dispositivos móviles, lo que lo hace versátil para diversas actividades como vlogging, transmisión en vivo y fotografía. Trípode flexible: Sus patas suelen ser ajustables y flexibles, lo que permite colocar el trípode sobre superficies irregulares o en posiciones creativas. Esto lo hace ideal para tomar fotos en diferentes ángulos y alturas. Extensibilidad: Puede ser extendido a diferentes longitudes, lo que brinda mayor alcance y permite capturar imágenes en diversas alturas. Control remoto: Incluye un control remoto que permite tomar fotos o iniciar grabaciones de manera conveniente desde una distancia, lo que es ideal para selfies o grabaciones en grupo. Compatibilidad: Generalmente es compatible con una variedad de dispositivos, incluidos smartphones (como iPhones) y cámaras de acción (como GoPro), gracias a sus adaptadores y soportes ajustables. Estabilidad: Diseñado para ofrecer estabilidad mientras se graba o se toman fotografías, lo que ayuda a evitar imágenes borrosas. Portabilidad: Su diseño ligero y compacto facilita llevarlo a cualquier lugar, lo que lo hace ideal para viajes y salidas al aire libre. Facilidad de uso: Su configuración y uso suelen ser intuitivos, lo que permite a los usuarios de diferentes niveles de experiencia aprovechar su funcionalidad."
     },
     {
       img: "accesorios9.jpg",
-      titulo: "Lowepro ProTactic 450 AW II",
+      titulo: "Luz para selfie, 60 LED de 2200 mAh recargable",
       tipo: "Accesorios",
-      texto: "Una mochila resistente y bien diseñada, proporcionando una excelente protección y accesibilidad para equipo fotográfico."
+      texto: "7 modos de luz y 10 niveles de brillo: la luz para selfie tiene 7 modos de luz (2500 K-6500 K), que se proporcionan para satisfacer tus diversas necesidades de uso, la alta calificación de CRI de 97+ te permite ser encantador en cualquier situación, como iluminación de maquillaje, selfies, grabación de video, videoconferencia, programa de vlog, transmisión en vivo. Luz LED para selfie para teléfono integrada 60 cuentas de iluminación LED para mejorar la calidad de la noche. La luz de relleno es más suave, más brillante, no deslumbrante, y puede proteger bien tus ojos. Batería recargable de 2200 mAh: la luz LED para selfie incorporada con batería recargable de 2200 mAh y puerto de carga USB tipo C. Esta luz de relleno para teléfono celular se carga fácilmente por laptops, PC, bancos de energía, cargadores USB, cargadores de automóvil, etc. Te permite usarlo en todas partes. La luz de la cámara se puede cargar completamente en aproximadamente 2 horas, y ofrece una operación de 130 minutos al 100% de brillo, más de 15 horas para un 10% de brillo. Amplia compatibilidad y mejora la calidad de las fotos: esta luz LED delgada y ligera para teléfono iluminará tu apariencia para que te veas mejor frente a la cámara web. Es perfecto para selfies, fotos, fotografía, video, teléfono móvil, laptop, maquillaje, transmisiones en vivo o vlogs. El diseño giratorio hace que la luz portátil para selfie sea tan increíble y mejora en gran medida la calidad de tu contenido. Es lo suficientemente brillante, lo que te ayuda a lucir encantadora y brillante. Ligero y portátil: el tamaño ligero y portátil de la luz de relleno del teléfono celular incluso te permite llevarlo contigo por la noche para transmisiones en vivo al aire libre o selfies sin ninguna carga. La bolsa de almacenamiento adicional hace que sea más fácil de llevar.【Paquete y 3 años de garantía】: esta luz para selfie para teléfono viene con una luz de video, clip de montaje giratorio de 160°, adaptador de tuerca de 1/4 pulgadas giratorio de 180°, soporte de zapata caliente de 1/4 pulgadas, cable de carga tipo C y bolsa de almacenamiento. Si tienes algún problema con esta luz de video de relleno de clip, simplemente envíanos un mensaje y te daremos las mejores soluciones, nuestro servicio de atención al cliente responderá en 24 horas."
     },
     {
       img: "accesorios10.jpg",
-      titulo: "Neewer 660 LED Video Light",
+      titulo: "HiiGuy - Correa para cámara",
       tipo: "Accesorios",
-      texto: "Un panel de luz LED versátil y ajustable, ideal para fotografía y videografía en estudios y exteriores."
-    }*/
+      texto: "Clips de liberación rápida para un uso fácil: cambia tu cámara de un soporte a otro sin esfuerzo con nuestro sistema de liberación rápida, diseñado para fotógrafos que poseen múltiples cámaras. Diseño ultra cómodo: con amortiguación de puntos antideslizante, experimenta el pináculo de la comodidad mientras disparas, incluso con una lente pesada. Perfecto para personas grandes y altas. Múltiples tamaños para todos: nuestras correas de cámara vienen en M/L que se extienden hasta 32 pulgadas, y XL/XXL que se extiende hasta 44 pulgadas, por lo que es fácil para todos encontrar su ajuste. Extras del juego de correas de cámara: esto no es solo una correa; ¡es un kit de fotografía! El paquete incluye un paño de microfibra para lentes, una funda para tarjeta SD y una correa de seguridad para la cámara. Garantía integral de 3 años: confianza en cada compra. Si pasa algo, te tenemos cubierto."
+    }
 ];
 
 export default Data;
