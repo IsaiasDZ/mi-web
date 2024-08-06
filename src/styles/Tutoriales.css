@@ -7,4 +7,10 @@
 
 .contenido-tutoriales{
     background-color: rgb(242, 242, 242);
+    
+}
+
+.contenido-concursos{
+  background-color: rgb(242, 242, 242);
+  text-align: justify;
 }

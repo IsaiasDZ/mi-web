@@ -17,7 +17,7 @@ const Concursos = () => {
           />
       </div>
 
-      <div className='contenido-concurso'>
+      <div className='contenido-concursos'>
        
         <Prueba/>
         
