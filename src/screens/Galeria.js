@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Gallery from '../components/Gallery';
 import { Data1, Data2, Data3, Data4 } from '../database/Data-gallery';
 import { IoMdCloseCircle } from "react-icons/io";
+import SharedButton from "../components/SharedButton"
 
 const App = () => {
   const [isFixedComponentVisible, setFixedComponentVisible] = useState(false);
@@ -78,6 +79,7 @@ const Galeria = ({ onClick }) => {
 };
 
 const FixedComponent = ({ onClose, image }) => {
+  const p = `http://localhost:3000/static/media/paisaje1.daa9cc8cb8784f1a4619.jpg`;
   return (
     <div className="fixed-component">
       <button onClick={onClose} className='button-close'><IoMdCloseCircle /></button>
@@ -87,7 +89,7 @@ const FixedComponent = ({ onClose, image }) => {
         
        
           <div className="carousel-item active">
-            <img src={require(`../img/galeria/${image}`)} className="d-block w-100" alt="Selected" />
+            <img id="imgId" src={require(`../img/galeria/${image}`)} className="d-block w-100" alt="Selected" />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -100,6 +102,7 @@ const FixedComponent = ({ onClose, image }) => {
         </button>
       </div>
       </div>
+      <SharedButton href={p} tipoS="true"/>
     </div>
   );
 };

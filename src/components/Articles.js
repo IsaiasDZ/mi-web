@@ -6,13 +6,14 @@ import { LuHeart } from "react-icons/lu";
 import { FaRegMessage } from "react-icons/fa6";
 import { FaRegShareFromSquare } from "react-icons/fa6";
 import { IoArrowRedoSharp } from "react-icons/io5";
+import SharedButton from "./SharedButton";
 
 const img2 =  "usuario.jpg"
 
-function Articulos() {
+function Articulos({ id}) {
   const dataComp = Data.map((data, index)=> {
     return(
-      <div className="articulos-div" key={index}>
+      <div className="articulos-div" id={data.id} key={index}>
         <div className="box-title">
             <p className="nombre-testimonio"><strong>{data.nombre}</strong></p>
             <p className="nombre-favorito"><IoBookmarks className="book"/></p>
@@ -29,7 +30,7 @@ function Articulos() {
       <div className="box-buttons">
         <p><LuHeart className="icons"/>Me gusta</p>
         <p><FaRegMessage className="icons"/>Comentarios</p>
-        <p><FaRegShareFromSquare className="icons"/>Compartir</p>
+        <p><SharedButton></SharedButton></p>
       </div>
       <div className="body-comments">
         <div className="box-comments">

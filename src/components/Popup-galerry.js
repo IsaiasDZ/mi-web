@@ -10,6 +10,7 @@ const Card = ({ onClick }) => {
   return (
     <div onClick={onClick} className='contenido-tutoriales'>
       <Gallery Data={Data1} className="img"/>
+     
     </div>
   );
 };

@@ -78,9 +78,11 @@
     width: 150px;
     font-size: 15px;
     justify-content: center;
+    color: black;
     padding: 10px 0px;
     align-items: center;
     font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .articulos-div .box-buttons{
     margin: 0px 10px;
