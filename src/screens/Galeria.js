@@ -81,7 +81,7 @@ const Galeria = ({ onClick }) => {
 const FixedComponent = ({ onClose, image }) => {
   const p = `http://localhost:3000/static/media/paisaje1.daa9cc8cb8784f1a4619.jpg`;
   return (
-    <div className="fixed-component">
+    <div className="fixed-component2">
       <button onClick={onClose} className='button-close'><IoMdCloseCircle /></button>
       <div className="tamaño-carousel">
       <div className="carousel-inner">     
@@ -89,20 +89,13 @@ const FixedComponent = ({ onClose, image }) => {
         
        
           <div className="carousel-item active">
-            <img id="imgId" src={require(`../img/galeria/${image}`)} className="d-block w-100" alt="Selected" />
+            <img id="imgId" src={require(`../img/galeria/${image}`)} className="" alt="Selected" />
           </div>
         </div>
-        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Next</span>
-        </button>
+       
       </div>
       </div>
-      <SharedButton href={p} tipoS="true"/>
+      <SharedButton className="sharedGalery" href={p} tipoS="true" style={{color: "white"}}/>
     </div>
   );
 };

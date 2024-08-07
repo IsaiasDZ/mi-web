@@ -1,3 +1,38 @@
+.fixed-component2 {
+    width: 90%;
+    height: 90%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0);
+    padding: 16px;
+   
+    z-index: 1000;
+    border-radius: 15px;
+    overflow: auto;
+    
+  }
+  
+  .fixed-component2 .button-close {
+    color: rgb(219, 219, 219);
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    border: none;
+    font-size: 40px;
+  }
+
+  .fixed-component2 .button-close {
+   
+    background-color: rgba(0, 0, 0, 0);
+}
+ 
+  
+  .fixed-component2 h1, .fixed-component p{
+    text-align: left;
+  }
+
 .gallery-content{
     background-color: rgb(10, 10, 10);
     margin-top: 95px;
@@ -13,10 +48,10 @@
 .gallery-center{
   
     background-color: rgb(0, 0, 0);
-    width: 1800px;
+    width: 1900px;
     height: 800px;
     overflow: auto;
-    max-width: 1800px;
+    max-width: 1900px;
     border: 2px solid rgb(0, 0, 0);
     scrollbar-color: #ffffff #f0f0f000;
 }
@@ -28,7 +63,7 @@
     display: flex;
     flex-wrap: wrap;
     background-color: rgba(70, 70, 70, 0.767);
-    width: 1740px;
+    width: 1850px;
     height: auto;
     border-radius: 15px;
 }
@@ -44,14 +79,15 @@
     color: rgb(255, 255, 255);
     text-align: left;
     font-weight: 600;
-    width: 1760px;
+    width: 1800px;
     margin: 5px;
 }
 /*HORIZONTAL*/
 .gallery-content img{
     margin: 5px;
     transition: 0.3;
-    width: 500px;
+    width: auto;
+    max-width: 500px;
     height: 300px;
     display: flex;
     border-radius: 5px;
@@ -59,7 +95,7 @@
 }
 
 .gallery-content .imagenes{
-    width: 1760px;
+    width: 1800px;
     display: flex;
     flex-wrap: wrap;
     
@@ -85,14 +121,28 @@
 .tamaño-carousel{
 
     margin-top: 45px;
-    width: auto;
-    height: auto;
+   
     overflow: hidden;
     
 }
 
 .tamaño-carousel img{
+    width: auto;
     height: 740px;
     border-radius: 5px;
     
+}
+
+.fixed-component2 .sharedButton{
+    height: 30px;
+    padding-top: 4px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.fixed-component2 .share-buttons {
+    justify-content: center;
+    margin-top: 5px;
 }

@@ -58,7 +58,7 @@ const GaleriaHome = () => {
   };
 
   return (
-    <div>
+    <div className='galleryHome-space'>
   
       <h1 className='titulo'>Explora imagenes.</h1>
       <p className='texto'>Aquí podrás ver una variedad de imagenes y estilos.</p>
