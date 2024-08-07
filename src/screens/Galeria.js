@@ -1,7 +1,7 @@
 import "../styles/Galeria.css"
 import React, { useState } from 'react';
 import Gallery from '../components/Gallery';
-import { Data1, Data2, Data3, Data4 } from '../database/Data-gallery';
+import { Data1, Data2, Data3, Data4, Data5 } from '../database/Data-gallery';
 import { IoMdCloseCircle } from "react-icons/io";
 import SharedButton from "../components/SharedButton"
 
@@ -41,7 +41,7 @@ const Galeria = ({ onClick }) => {
           <p className='titulo-estilo'>Retrato</p>
           <div className='imagenes'>
             <div className="oscurecer">
-             
+            <Gallery Data={Data5} onClick={onClick} />
             </div>
           </div>
         </div>

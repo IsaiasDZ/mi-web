@@ -15,10 +15,10 @@ export const Data1 = [
   { id: "14", img: "planta14.jpg" },
   { id: "15", img: "planta15.jpg" },
   { id: "16", img: "planta16.jpg" },
- /* { id: "17", img: "planta17.jpg" },
+  { id: "17", img: "planta17.jpg" },
   { id: "18", img: "planta18.jpg" },
   { id: "19", img: "planta19.jpg" },
-  { id: "20", img: "planta20.jpg" } */
+  { id: "20", img: "planta20.jpg" } 
   ];
   
   export const Data2 = [
@@ -56,7 +56,7 @@ export const Data1 = [
       { id: "9", img: "estructura9.jpg" },
       { id: "10", img: "estructura10.jpg" },
       { id: "11", img: "estructura11.jpg" },
-      /* { id: "12", img: "estructura12.jpg" },
+      { id: "12", img: "estructura12.jpg" },
       { id: "13", img: "estructura13.jpg" },
       { id: "14", img: "estructura14.jpg" },
       { id: "15", img: "estructura15.jpg" },
@@ -64,7 +64,7 @@ export const Data1 = [
       { id: "17", img: "estructura17.jpg" },
       { id: "18", img: "estructura18.jpg" },
       { id: "19", img: "estructura19.jpg" },
-      { id: "20", img: "estructura20.jpg" }*/
+      { id: "20", img: "estructura20.jpg" }
  ];
  
 
@@ -87,8 +87,22 @@ export const Data1 = [
     { id: "15", img: "paisaje15.jpg" },
     { id: "16", img: "paisaje16.jpg" },
     { id: "17", img: "paisaje17.jpg" },
-   /*   { id: "18", img: "paisaje18.jpg" },
+    { id: "18", img: "paisaje18.jpg" },
     { id: "19", img: "paisaje19.jpg" },
-    { id: "20", img: "paisaje20.jpg" }*/
+    { id: "20", img: "paisaje20.jpg" },
+    { id: "21", img: "paisaje21.jpg" }
   ];
   
+  export const Data5 = [
+    { id: "1", img: "retrato1.jpg" },
+    { id: "2", img: "retrato2.jpg" },
+    { id: "3", img: "retrato3.jpg" },
+    { id: "4", img: "retrato4.jpg" },
+    { id: "5", img: "retrato5.jpg" },
+    { id: "6", img: "retrato6.jpg" },
+    { id: "7", img: "retrato7.jpg" },
+    { id: "8", img: "retrato8.jpg" },
+    { id: "9", img: "retrato9.jpg" },
+    { id: "10", img: "retrato10.jpg" },
+    { id: "11", img: "retrato11.jpg" },
+  ];

@@ -4,6 +4,7 @@ import HeroSection from "../components/HeroSection"
 import Testimonio from '../components/Testimonio'
 import "../styles/Home.css"
 import Card from '../components/Cards-home';
+import GaleriaHome from '../components/GaleriaHome';
 
 const Home = () => {
   const{isAuthenticated}=useAuth0()
@@ -21,9 +22,7 @@ const Home = () => {
             
             
             <div className='card-home-title'>
-                <h1 className='titulo'>Explora imagenes.</h1>
-                <p className='texto'>Aquí podrás ver una variedad de imagenes y estilos.</p>
-                
+                <GaleriaHome/>
               </div>
             <div className='contenedor-carousel'>
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
