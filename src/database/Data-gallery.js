@@ -105,4 +105,12 @@ export const Data1 = [
     { id: "9", img: "retrato9.jpg" },
     { id: "10", img: "retrato10.jpg" },
     { id: "11", img: "retrato11.jpg" },
+    { id: "12", img: "retrato12.jpg" },
+    { id: "13", img: "retrato13.jpg" },
+    { id: "14", img: "retrato14.jpg" },
+    { id: "15", img: "retrato15.jpg" },
+    { id: "16", img: "retrato16.jpg" },
+    { id: "17", img: "retrato17.jpg" },
+    { id: "18", img: "retrato18.jpg" },
+    { id: "19", img: "retrato19.jpg" },
   ];
