@@ -51,7 +51,7 @@ const Noticias = () => {
 
         <div className='contenedor-noticias'>
           <div className='elements'>
-          <h5 className='pagTittle'>Página Actual: <strong>{currentPage}</strong></h5>
+          <h5 className='pagTittle'>Página Actual: <strong>{currentPage} </strong>de <strong>5</strong></h5>
             <Cardnoticias posts={currentPosts} loading={loading}/>
             <Pagination className="paginationPag" postsPerPage={postsPerPage} totalPosts={posts.length} paginate={paginate} currentPage={currentPage}/>
           </div>

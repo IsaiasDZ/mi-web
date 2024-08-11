@@ -39,7 +39,7 @@ const Galeria = ({ onClick }) => {
         <h1 className='titulo-princ'>Galeria: encuentra una variedad de imagenes y estilos</h1>
         <div className='encabezado'>
           <p className='titulo-estilo'>Retrato</p>
-          <div className='imagenes'>
+          <div className='imagenes vertical'>
             <div className="oscurecer">
             <Gallery Data={Data5} onClick={onClick} />
             </div>
@@ -48,7 +48,7 @@ const Galeria = ({ onClick }) => {
         <div className='encabezado'>
           <p className='titulo-estilo'>Paisajes</p>
           <div className='imagenes'>
-            <div className="oscurecer">
+            <div className="oscurecer horizontal">
             <Gallery Data={Data4} onClick={onClick} />
             </div>
           </div>
@@ -56,20 +56,20 @@ const Galeria = ({ onClick }) => {
         <div className='encabezado'>
           <p className='titulo-estilo'>Plantas</p>
           <div className='imagenes'>
-            <div className="oscurecer">
-              <Gallery Data={Data1} onClick={onClick} />
+            <div className="oscurecer horizontal">
+              <Gallery  Data={Data1} onClick={onClick} />
             </div>
           </div>
         </div>
         <div className='encabezado'>
           <p className='titulo-estilo'>Estructuras</p>
-          <div className="oscurecer">
+          <div className="oscurecer horizontal">
               <Gallery Data={Data3} onClick={onClick} />
             </div>
         </div>
         <div className='encabezado'>
           <p className='titulo-estilo'>Animales</p>
-          <div className="oscurecer">
+          <div className="oscurecer horizontal">
               <Gallery Data={Data2} onClick={onClick} />
             </div>
         </div>

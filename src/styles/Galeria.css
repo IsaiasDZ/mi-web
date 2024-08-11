@@ -37,7 +37,7 @@
     background-color: rgb(10, 10, 10);
     margin-top: 95px;
     width: 1920px;
-    height: 880px;
+    height: auto;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -49,8 +49,8 @@
   
     background-color: rgb(0, 0, 0);
     width: 1900px;
-    height: 800px;
-    overflow: auto;
+    height: auto;
+   
     max-width: 1900px;
     border: 2px solid rgb(0, 0, 0);
     scrollbar-color: #ffffff #f0f0f000;
@@ -83,11 +83,22 @@
     margin: 5px;
 }
 /*HORIZONTAL*/
-.gallery-content img{
+.gallery-content .vertical img{
+    margin: 5px;
+    transition: 0.3;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    border-radius: 5px;
+
+}
+
+
+.gallery-content .horizontal img{
     margin: 5px;
     transition: 0.3;
     width: auto;
-    max-width: 500px;
+    width:550px ;
     height: 300px;
     display: flex;
     border-radius: 5px;
@@ -96,15 +107,20 @@
 
 .gallery-content .imagenes{
     width: 1800px;
+    margin-left: 25px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     
 }
+
 
 .contenedor-galeria-flex{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .gallery-content img:hover{

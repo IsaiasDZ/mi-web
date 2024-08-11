@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from 'react';
 import "../styles/Articles.css";
 import Data from "../database/Data-article";
 import { IoBookmarks } from "react-icons/io5";
@@ -7,23 +7,80 @@ import { FaRegMessage } from "react-icons/fa6";
 import { FaRegShareFromSquare } from "react-icons/fa6";
 import { IoArrowRedoSharp } from "react-icons/io5";
 import SharedButton from "./SharedButton";
+import { FaFilter } from "react-icons/fa6";
+import { FaEye } from "react-icons/fa";
 
 const img2 =  "usuario.jpg"
+const FilterButton = ({ setFilter }) => {
+  const [showFilters, setShowFilters] = useState(false);
+  const categories = ["Fotografía de Naturaleza", "Técnicas de Fotografía", "Fotografía Especializada"];
 
-function Articulos({ id}) {
-  const dataComp = Data.map((data, index)=> {
+  const toggleFilters = () => setShowFilters(!showFilters);
+
+  const handleFilterClick = (filterType, filterValue) => {
+    setFilter(prevFilters => ({
+      ...prevFilters,
+      [filterType]: filterValue,
+    }));
+    setShowFilters(false); // Close the filters menu after selecting
+  };
+  const handleResetFilters = () => {
+    setFilter({ categoria: ''});
+    setShowFilters(false); // Close the filters menu after resetting
+  };
+
+  return (
+    <div className='buttonsFilt'>
+      <button onClick={toggleFilters} class="btn btn-dark"><FaFilter /> Escoger Filtros</button>
+      <button class="btn btn-dark" onClick={handleResetFilters}><FaEye /> Mostrar Todos</button>
+      {showFilters && (
+        <div className="filters-menu">
+          <div>
+            <h4>Categorias</h4>
+            {categories.map(category => (
+              <button  class="btn btn-outline-dark" key={category} onClick={() => handleFilterClick('categoria', category)}>
+                {category}
+              </button>
+            ))}
+          </div>
+          
+        </div>
+      )}
+    </div>
+  );
+};
+
+
+
+const Articulos = () => {
+  const [filters, setFilters] = useState({ categoria: ''});
+
+// Aquí puedes aplicar los filtros a tus datos
+const filteredData = Data.filter(item => {
+  return (
+    (!filters.categoria || item.categoria === filters.categoria)
+  );
+});
+
+  
     return(
-      <div className="articulos-div" id={data.id} key={index}>
+      <div>
+      <div className='button-filter' style={{marginLeft:"120px"}}>
+        <FilterButton setFilter={setFilters} className="button-filter-pos"/>
+       
+      </div>
+        {filteredData.map((item, index) => (
+      <div className="articulos-div"  key={index}>
         <div className="box-title">
-            <p className="nombre-testimonio"><strong>{data.nombre}</strong></p>
-            <p className="nombre-favorito"><IoBookmarks className="book"/></p>
+            <p className="nombre-testimonio"><strong>{item.nombre}<IoBookmarks className="book"/></strong></p>
+            
         </div>
         
       <div className="contenedor-testimonio">
         
-            <img className="imagen-testimonio" src={require(`../img/articulos/${data.img}`)} alt="foto-de-daniel"/>
+            <img className="imagen-testimonio" src={require(`../img/articulos/${item.img}`)} alt="foto-de-daniel"/>
             <div className="contenedor-texto-testimonio">
-                <p className="texto-testimonio">{data.texto}</p>
+                <p className="texto-testimonio">{item.texto}</p>
             </div>
 
       </div>
@@ -42,80 +99,77 @@ function Articulos({ id}) {
         <div className="comentario1">
         <img className="img-respuesta" src={require(`../img/${img2}`)} alt="foto-de-daniel"/>
           <h1>Usuario</h1>
-          <p className="box-comentario">{data.comentario1}</p>
+          <p className="box-comentario">{item.comentario1}</p>
           <p className="botones"><IoArrowRedoSharp />Responder</p>
         </div>
         <div className="comentario1">
         <img className="img-respuesta" src={require(`../img/${img2}`)} alt="foto-de-daniel"/>
           <h1>Usuario</h1>
-          <p className="box-comentario">{data.comentario2}</p>
+          <p className="box-comentario">{item.comentario2}</p>
           <p className="botones"><IoArrowRedoSharp />Responder</p>
         </div>
         <div className="comentario1">
         <img className="img-respuesta" src={require(`../img/${img2}`)} alt="foto-de-daniel"/>
           <h1>Usuario</h1>
-          <p className="box-comentario">{data.comentario3}</p>
+          <p className="box-comentario">{item.comentario3}</p>
           <p className="botones"><IoArrowRedoSharp />Responder</p>
         </div>
         <div className="comentario1">
         <img className="img-respuesta" src={require(`../img/${img2}`)} alt="foto-de-daniel"/>
           <h1>Usuario</h1>
-          <p className="box-comentario">{data.comentario4}</p>
+          <p className="box-comentario">{item.comentario4}</p>
           <p className="botones"><IoArrowRedoSharp />Responder</p>
         </div>
         <div className="comentario1">
         <img className="img-respuesta" src={require(`../img/${img2}`)} alt="foto-de-daniel"/>
           <h1>Usuario</h1>
-          <p className="box-comentario">{data.comentario5}</p>
+          <p className="box-comentario">{item.comentario5}</p>
           <p className="botones"><IoArrowRedoSharp />Responder</p>
         </div>
         <div className="comentario1">
         <img className="img-respuesta" src={require(`../img/${img2}`)} alt="foto-de-daniel"/>
           <h1>Usuario</h1>
-          <p className="box-comentario">{data.comentario6}</p>
+          <p className="box-comentario">{item.comentario6}</p>
           <p className="botones"><IoArrowRedoSharp />Responder</p>
         </div>
         <div className="comentario1">
         <img className="img-respuesta" src={require(`../img/${img2}`)} alt="foto-de-daniel"/>
           <h1>Usuario</h1>
-          <p className="box-comentario">{data.comentario7}</p>
+          <p className="box-comentario">{item.comentario7}</p>
           <p className="botones"><IoArrowRedoSharp />Responder</p>
         </div>
         <div className="comentario1">
         <img className="img-respuesta" src={require(`../img/${img2}`)} alt="foto-de-daniel"/>
           <h1>Usuario</h1>
-          <p className="box-comentario">{data.comentario8}</p>
+          <p className="box-comentario">{item.comentario8}</p>
           <p className="botones"><IoArrowRedoSharp />Responder</p>
         </div>
         <div className="comentario1">
         <img className="img-respuesta" src={require(`../img/${img2}`)} alt="foto-de-daniel"/>
           <h1>Usuario</h1>
-          <p className="box-comentario">{data.comentario9}</p>
+          <p className="box-comentario">{item.comentario9}</p>
           <p className="botones"><IoArrowRedoSharp />Responder</p>
         </div>
         <div className="comentario1">
         <img className="img-respuesta" src={require(`../img/${img2}`)} alt="foto-de-daniel"/>
           <h1>Usuario</h1>
-          <p className="box-comentario">{data.comentario10}</p>
+          <p className="box-comentario">{item.comentario10}</p>
           <p className="botones"><IoArrowRedoSharp />Responder</p>
         </div>
         <div className="comentario1">
         <img className="img-respuesta" src={require(`../img/${img2}`)} alt="foto-de-daniel"/>
           <h1>Usuario</h1>
-          <p className="box-comentario">{data.comentario7}</p>
+          <p className="box-comentario">{item.comentario7}</p>
           <p className="botones"><IoArrowRedoSharp />Responder</p>
         </div>
         
                
       </div>
     </div>
-    )
-  })
-  return(
-    <div style={{ marginBottom: "15px" }}>
-     { dataComp}
-    </div>
-  );
+        ))}
+        </div>
+        )
+  
 
   };
 

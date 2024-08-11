@@ -13,6 +13,21 @@
     width: 400px;
     
 }
+
+.card-concursos{
+    box-shadow: 3px 3px 5px 5px rgba(22, 22, 22, 0.158);
+    margin: 15px;
+    width: 700px;
+    
+}
+
+.card-concursos:hover{
+    cursor: pointer;
+}
+
+.card-concursos .card-body{
+    margin: 10px 15px 15px 15px;
+}
 .card-titulo{
     font-size: 1.6rem;
 }
@@ -40,7 +55,7 @@
     z-index: 10;
 }
 
-.card:hover{
+.card:hover, .card-concursos:hover{
     background-color: rgb(40, 40, 40);
     transform: scale(1.05);
     

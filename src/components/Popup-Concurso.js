@@ -6,8 +6,9 @@ import { IoMdCloseCircle } from "react-icons/io";
 // Componente de la card
 const Card = ({ onClick }) => {
   return (
-    <div onClick={onClick} className='contenido-tutoriales'>
-      <Cards />
+    <div  className='contenido-tutoriales'>
+      <div onClick={onClick}>   <Cards  /></div>
+   
     </div>
   );
 };

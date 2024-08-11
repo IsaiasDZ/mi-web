@@ -36,30 +36,23 @@
     line-height: 1.5rem;
 }
 .articulos-div  .nombre-testimonio{
-    width: 700px;
+    width: 1400px ;
     padding-left: 30px;
     margin: 10px 0px 0px 10px;
     height: 45px;
     font-size: 1.3rem;
     background-color: black;
     color: white;
-    border-radius: 10px 0px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
     float: left;
     text-align: left;
 }
-
-.articulos-div  .nombre-favorito{
-    width: 700px;
-    margin: 10px 10px 0px 0px;
-    height: 45px;
-    font-size: 1.4rem;
-    background-color: black;
-    color: white;
-    border-radius: 0px 10px 0px 0px;
+.articulos-div .book{
     float: right;
-    text-align: right;
-    padding-right: 30px;
-}       
+    margin-right: 10px;
+    margin-top: 8px;
+}
+
 
 
 .articulos-div  .texto-testimonio{

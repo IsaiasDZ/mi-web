@@ -5,7 +5,7 @@ import "../styles/Cards.css"
 const Card = () => {
     const dataComp = Data.map((data, index)=> {
   return (
-    <div className="card"  key={index}>
+    <div className="card-concursos"  key={index}>
     <img src={require(`../img/${data.img}`)} className="card-img-top" alt="Header Home Card" />
     <div className="card-body">
     <h1 className="card-titulo">{data.titulo}</h1>

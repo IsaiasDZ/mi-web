@@ -1,7 +1,8 @@
 //datos.js
 const Data = [
     {
-        img: "imagen2.jpg",
+        img: "imagen1.jpg",
+        categoria: "Fotografía de Naturaleza",
         nombre: "La Magia del Amanecer en Fotografía",
         texto: "El amanecer es uno de los momentos más mágicos del día para los fotógrafos. La transición de la oscuridad a la luz revela un mundo de posibilidades fotográficas, donde los colores vibrantes y la atmósfera tranquila crean escenas de ensueño. Fotografiar el amanecer no solo desafía las habilidades técnicas del fotógrafo, sino que también ofrece la oportunidad de capturar la esencia pura y tranquila de la naturaleza. Aquí te comparto algunos consejos y técnicas para aprovechar al máximo la magia del amanecer en tus fotografías.",
         comentario1: "Me encantaron los consejos para capturar el amanecer, ¡son muy útiles!",
@@ -18,7 +19,8 @@ const Data = [
     {
         img: "imagen2.jpg",
         nombre: "Retratos en la Hora Dorada",
-        texto: "La hora dorada, ese breve momento justo después del amanecer y antes del atardecer, ofrece una luz suave y cálida que es ideal para la fotografía de retrato. Aprovechar esta luz natural puede hacer que tus retratos se vean más profesionales y atractivos. En este artículo, te damos algunos consejos para sacar el máximo provecho de la hora dorada en tus sesiones de retrato.",
+        categoria: "Fotografía de Naturaleza",
+        texto: "La hora dorada es uno de los momentos más preciados para los fotógrafos, especialmente aquellos que se dedican al retrato. Este breve intervalo, justo después del amanecer y antes del atardecer, ofrece una luz suave y cálida que envuelve a los sujetos en un resplandor natural, creando una atmósfera mágica difícil de replicar con luces artificiales. Durante la hora dorada, la luz del sol está cerca del horizonte, filtrándose a través de la atmósfera de manera que suaviza las sombras y añade un toque dorado a todo lo que ilumina. Esta iluminación natural realza las características faciales en los retratos, haciendo que las imágenes se vean más atractivas y profesionales.",
         comentario1: "Los retratos en la hora dorada siempre salen espectaculares, ¡gracias por los tips!",
         comentario2: "La luz dorada realmente transforma las fotos, excelente artículo.",
         comentario3: "Muy buenos consejos, la hora dorada es mi momento favorito para fotografiar.",
@@ -32,8 +34,9 @@ const Data = [
     },
     {
         img: "imagen3.jpg",
+        categoria: "Fotografía de Naturaleza",
         nombre: "Fotografía de Paisajes: Capturando la Esencia de la Naturaleza",
-        texto: "La fotografía de paisajes es una de las disciplinas más desafiantes y gratificantes. Capturar la esencia de un lugar requiere no solo habilidades técnicas, sino también una conexión emocional con el entorno. En este artículo, exploramos algunas técnicas y consejos para mejorar tus fotografías de paisajes y capturar la verdadera esencia de la naturaleza.",
+        texto: "La fotografía de paisajes es una de las disciplinas más desafiantes y gratificantes para cualquier fotógrafo. Capturar la esencia de un lugar va más allá de dominar las técnicas básicas; requiere una conexión emocional profunda con el entorno que te rodea. Cada paisaje tiene su propia personalidad, desde la majestuosidad de las montañas hasta la serenidad de un lago al amanecer, y el desafío radica en transmitir esa esencia a través de una imagen. Este proceso no solo implica el uso adecuado de la cámara y la composición, sino también el entendimiento de cómo la luz, el clima y la perspectiva pueden transformar una escena ordinaria en algo extraordinario.",
         comentario1: "Este artículo me ayudó a mejorar mis fotos de paisajes, ¡gracias!",
         comentario2: "Capturar la esencia de la naturaleza es todo un arte, muy buen artículo.",
         comentario3: "Excelente guía, mis fotos de paisajes han mejorado mucho.",
@@ -47,6 +50,7 @@ const Data = [
     },
     {
         img: "imagen4.jpg",
+        categoria: "Fotografía de Naturaleza",
         nombre: "Fotografía Nocturna: Dominando la Oscuridad",
         texto: "La fotografía nocturna puede ser un desafío debido a la falta de luz, pero con las técnicas adecuadas, puedes capturar imágenes espectaculares. Desde el uso de largas exposiciones hasta la elección del equipo correcto, en este artículo te mostramos cómo dominar la oscuridad y obtener impresionantes fotos nocturnas.",
         comentario1: "Nunca había probado la fotografía nocturna, ¡gracias por los consejos!",
@@ -61,7 +65,8 @@ const Data = [
         comentario10: "Gracias por las recomendaciones, ahora disfruto más de la fotografía nocturna."
     },
     {
-        img: "imagen6.jpg",
+        img: "imagen5.jpg",
+         categoria: "Técnicas de Fotografía",
         nombre: "Fotografía de Acción: Capturando el Momento Perfecto",
         texto: "Capturar la acción en una foto puede ser complicado, pero con la técnica y el equipo adecuados, puedes congelar momentos emocionantes con precisión. En este artículo, exploramos cómo ajustar tu cámara y qué configuraciones utilizar para obtener las mejores fotos de acción.",
         comentario1: "Los consejos sobre configuraciones de cámara fueron muy útiles.",
@@ -76,6 +81,7 @@ const Data = [
         comentario10: "Gracias por las recomendaciones, ahora puedo congelar momentos con más precisión."
     },{
         img: "imagen6.jpg",
+        categoria: "Técnicas de Fotografía",
         nombre: "Fotografía de Arquitectura: Enmarcando la Estructura",
         texto: "La fotografía de arquitectura requiere una visión única para capturar la esencia y la belleza de las estructuras. Desde la elección del ángulo correcto hasta la importancia de la luz, este artículo te ofrece consejos para mejorar tus fotos de arquitectura y destacar la magnificencia de los edificios.",
         comentario1: "La elección del ángulo realmente cambia la perspectiva, muy buen artículo.",
@@ -90,6 +96,7 @@ const Data = [
         comentario10: "Gran artículo, la elección del ángulo hace toda la diferencia."
     },{
         img: "imagen7.jpg",
+        categoria: "Técnicas de Fotografía",
         nombre: "Fotografía Macro: Explorando el Microcosmos",
         texto: "La fotografía macro nos permite explorar el mundo diminuto que nos rodea, capturando detalles increíbles de pequeños sujetos. Desde la elección del objetivo adecuado hasta las técnicas de iluminación, en este artículo te damos consejos para mejorar tus fotos macro y descubrir la belleza del microcosmos.",
         comentario1: "La fotografía macro es fascinante, gracias por los consejos.",
@@ -102,6 +109,7 @@ const Data = [
         comentario8: "La fotografía macro revela un mundo nuevo, excelente guía."
     },{
         img: "imagen8.jpg",
+        categoria: "Técnicas de Fotografía",
         nombre: "Fotografía de Viajes: Capturando Aventuras",
         texto: "La fotografía de viajes es una forma maravillosa de documentar y compartir tus experiencias alrededor del mundo. Desde paisajes impresionantes hasta retratos de personas locales, este artículo te ofrece consejos para mejorar tus fotos de viajes y capturar la esencia de tus aventuras.",
         comentario1: "Capturar la esencia de un lugar en una foto es todo un arte, excelente artículo.",
@@ -117,6 +125,7 @@ const Data = [
     },
     {
         img: "imagen9.jpg",
+        categoria: "Técnicas de Fotografía",
         nombre: "Fotografía de Animales: Capturando la Vida Salvaje",
         texto: "La fotografía de animales requiere paciencia y habilidad para capturar la esencia de la vida salvaje. En este artículo, te ofrecemos consejos sobre cómo acercarte a los animales, qué equipo usar y cómo configurar tu cámara para obtener las mejores fotos de fauna.",
         comentario1: "Fotografiar animales siempre es un reto, gracias por los consejos.",
@@ -132,6 +141,7 @@ const Data = [
     },
     {
         img: "imagen10.jpg",
+        categoria: "Técnicas de Fotografía",
         nombre: "Fotografía de Comida: Haciendo que los Platos Cobren Vida",
         texto: "La fotografía de comida puede hacer que un plato se vea aún más delicioso. Desde la elección de la luz hasta la composición del plato, en este artículo te damos consejos para mejorar tus fotos de comida y hacer que los platos cobren vida.",
         comentario1: "La fotografía de comida es todo un arte, gracias por los consejos.",
@@ -147,6 +157,7 @@ const Data = [
     },
     {
         img: "imagen11.jpg",
+        categoria: "Técnicas de Fotografía",
         nombre: "Fotografía Submarina: Explorando el Mundo Bajo el Agua",
         texto: "La fotografía submarina ofrece una perspectiva única del mundo bajo el agua. Desde el equipo necesario hasta las técnicas de iluminación, en este artículo te damos consejos para capturar impresionantes fotos submarinas.",
         comentario1: "La fotografía submarina siempre me ha intrigado, gracias por los tips.",
@@ -162,6 +173,7 @@ const Data = [
     },
     {
         img: "imagen12.jpg",
+        categoria: "Técnicas de Fotografía",
         nombre: "Fotografía en Blanco y Negro: Capturando la Esencia del Momento",
         texto: "La fotografía en blanco y negro tiene un encanto especial que puede capturar la esencia de un momento de manera única. En este artículo, te damos consejos sobre cómo aprovechar el contraste y la luz para crear impresionantes fotos en blanco y negro.",
         comentario1: "La fotografía en blanco y negro siempre tiene un toque especial, gracias por los consejos.",
@@ -177,6 +189,7 @@ const Data = [
     },
     {
         img: "imagen13.jpg",
+        categoria: "Técnicas de Fotografía",
         nombre: "Fotografía de Productos: Mostrando lo Mejor de Cada Artículo",
         texto: "La fotografía de productos es esencial para mostrar lo mejor de cada artículo, ya sea para ventas online o publicidad. En este artículo, te damos consejos sobre cómo iluminar, componer y editar tus fotos de productos para obtener resultados profesionales.",
         comentario1: "La fotografía de productos es crucial para el e-commerce, gracias por los consejos.",
@@ -192,6 +205,7 @@ const Data = [
     },
     {
         img: "imagen14.jpg",
+        categoria: "Técnicas de Fotografía",
         nombre: "Fotografía Aérea: Capturando el Mundo Desde las Alturas",
         texto: "La fotografía aérea nos ofrece una perspectiva única del mundo desde las alturas. Ya sea usando drones o desde un avión, en este artículo te damos consejos sobre cómo capturar impresionantes fotos aéreas.",
         comentario1: "La fotografía aérea ofrece una perspectiva increíble, gracias por los consejos.",
@@ -206,6 +220,7 @@ const Data = [
         comentario10: "Gracias por las recomendaciones, ahora disfruto más de fotografiar desde las alturas."
     },{
         img: "imagen15.jpg",
+        categoria: "Fotografía Especializada",
         nombre: "Fotografía Creativa: Rompiendo las Reglas",
         texto: "La fotografía creativa es sobre romper las reglas y experimentar con nuevas técnicas y perspectivas. En este artículo, te animamos a salir de tu zona de confort y te ofrecemos ideas para explorar tu creatividad fotográfica.",
         comentario1: "La fotografía creativa es muy divertida, gracias por los consejos.",
@@ -221,6 +236,7 @@ const Data = [
     },
     {
         img: "imagen16.jpg",
+        categoria: "Fotografía Especializada",
         nombre: "Fotografía de Eventos: Capturando la Esencia de la Celebración",
         texto: "La fotografía de eventos requiere rapidez y habilidad para capturar momentos espontáneos. En este artículo, te damos consejos sobre cómo estar preparado y qué configuraciones de cámara utilizar para capturar la esencia de cualquier celebración.",
         comentario1: "La fotografía de eventos es todo un reto, gracias por los consejos.",
@@ -236,6 +252,7 @@ const Data = [
     },
     {
         img: "imagen17.jpg",
+        categoria: "Fotografía Especializada",
         nombre: "Fotografía Minimalista: Menos es Más",
         texto: "La fotografía minimalista se centra en la simplicidad y el uso de elementos mínimos para crear composiciones impactantes. En este artículo, te ofrecemos consejos sobre cómo capturar la esencia de la simplicidad en tus fotos.",
         comentario1: "La fotografía minimalista tiene un encanto especial, gracias por los consejos.",
@@ -251,6 +268,7 @@ const Data = [
     },
     {
         img: "imagen18.jpg",
+        categoria: "Fotografía Especializada",
         nombre: "Fotografía de Bodas: Capturando el Amor",
         texto: "La fotografía de bodas es una de las ramas más emocionantes y desafiantes de la fotografía. En este artículo, te damos consejos sobre cómo capturar los momentos más importantes y emotivos de una boda.",
         comentario1: "Capturar el amor en una boda es muy especial, gracias por los consejos.",
@@ -266,6 +284,7 @@ const Data = [
     },
     {
         img: "imagen19.jpg",
+        categoria: "Fotografía Especializada",
         nombre: "Fotografía de Retratos: Capturando la Esencia Humana",
         texto: "La fotografía de retratos se trata de capturar la esencia y la personalidad de una persona. En este artículo, te ofrecemos consejos sobre cómo iluminar, encuadrar y conectar con tus sujetos para obtener retratos impresionantes.",
         comentario1: "Capturar la esencia de una persona en un retrato es todo un arte, gracias por los consejos.",
@@ -281,6 +300,7 @@ const Data = [
     },
     {
         img: "imagen20.jpg",
+        categoria: "Fotografía Especializada",
         nombre: "Fotografía de la Naturaleza: Capturando la Belleza del Mundo Natural",
         texto: "La fotografía de la naturaleza nos permite capturar la belleza y la diversidad del mundo natural. En este artículo, te ofrecemos consejos sobre cómo encontrar y fotografiar sujetos naturales impresionantes.",
         comentario1: "La fotografía de la naturaleza siempre me ha fascinado, gracias por los consejos.",
@@ -295,6 +315,7 @@ const Data = [
         comentario10: "Gracias por las recomendaciones, ahora disfruto más de fotografiar la naturaleza."
     },{
         img: "imagen21.jpg",
+        categoria: "Fotografía Especializada",
         nombre: "Fotografía Nocturna: Capturando la Magia de la Noche",
         texto: "La fotografía nocturna puede revelar un mundo completamente diferente al que vemos durante el día. En este artículo, te ofrecemos consejos sobre cómo configurar tu cámara y utilizar la luz para capturar impresionantes fotos nocturnas.",
         comentario1: "La fotografía nocturna tiene un encanto especial, gracias por los consejos.",
@@ -310,6 +331,7 @@ const Data = [
     },
     {
         img: "imagen22.jpg",
+        categoria: "Fotografía Especializada",
         nombre: "Fotografía de Arquitectura: Capturando la Grandeza de los Edificios",
         texto: "La fotografía de arquitectura nos permite capturar la belleza y la grandeza de los edificios y las estructuras. En este artículo, te ofrecemos consejos sobre cómo encontrar los mejores ángulos y utilizar la luz para resaltar los detalles arquitectónicos.",
         comentario1: "La fotografía de arquitectura es fascinante, gracias por los consejos.",
@@ -325,6 +347,7 @@ const Data = [
     },
     {
         img: "imagen23.jpg",
+        categoria: "Fotografía Especializada",
         nombre: "Fotografía de Deportes: Capturando la Acción en Movimiento",
         texto: "La fotografía de deportes requiere rapidez y precisión para capturar la acción en movimiento. En este artículo, te ofrecemos consejos sobre cómo configurar tu cámara y anticipar los momentos clave para obtener fotos espectaculares de eventos deportivos.",
         comentario1: "La fotografía de deportes es muy emocionante, gracias por los consejos.",
@@ -340,6 +363,7 @@ const Data = [
     },
     {
         img: "imagen24.jpg",
+        categoria: "Fotografía Especializada",
         nombre: "Fotografía Macro: Descubriendo el Mundo en Miniatura",
         texto: "La fotografía macro nos permite explorar el mundo en miniatura y capturar detalles que a menudo pasan desapercibidos. En este artículo, te ofrecemos consejos sobre cómo acercarte a tus sujetos y qué configuraciones de cámara utilizar para obtener fotos macro impresionantes.",
         comentario1: "La fotografía macro revela un mundo fascinante, gracias por los consejos.",
@@ -355,6 +379,7 @@ const Data = [
     },
     {
         img: "imagen25.jpg",
+        categoria: "Fotografía Especializada",
         nombre: "Fotografía de Paisajes Urbanos: Capturando la Esencia de la Ciudad",
         texto: "La fotografía de paisajes urbanos nos permite capturar la energía y la diversidad de las ciudades. En este artículo, te ofrecemos consejos sobre cómo encontrar los mejores puntos de vista y utilizar la luz para resaltar los detalles urbanos.",
         comentario1: "La fotografía de paisajes urbanos es muy interesante, gracias por los consejos.",
@@ -370,6 +395,7 @@ const Data = [
     },
     {
         img: "imagen26.jpg",
+        categoria: "Fotografía Especializada",
         nombre: "Fotografía de Moda: Capturando el Estilo y la Elegancia",
         texto: "La fotografía de moda se centra en capturar el estilo y la elegancia de la ropa y los accesorios. En este artículo, te ofrecemos consejos sobre cómo iluminar, componer y dirigir a los modelos para obtener fotos de moda impresionantes.",
         comentario1: "La fotografía de moda es muy creativa, gracias por los consejos.",
@@ -385,6 +411,7 @@ const Data = [
     },
     {
         img: "imagen27.jpg",
+        categoria: "Fotografía Especializada",
         nombre: "Fotografía de Vida Silvestre: Capturando la Naturaleza en su Estado Puro",
         texto: "La fotografía de vida silvestre nos permite capturar la belleza y el comportamiento de los animales en su hábitat natural. En este artículo, te ofrecemos consejos sobre cómo acercarte a los animales y qué configuraciones de cámara utilizar para obtener fotos impresionantes de vida silvestre.",
         comentario1: "La fotografía de vida silvestre es increíble, gracias por los consejos.",
@@ -400,6 +427,7 @@ const Data = [
     },
     {
         img: "imagen28.jpg",
+        categoria: "Fotografía Especializada",
         nombre: "Fotografía de Productos: Capturando la Esencia de los Objetos",
         texto: "La fotografía de productos se centra en capturar la esencia y los detalles de los objetos. En este artículo, te ofrecemos consejos sobre cómo iluminar, componer y resaltar las características de los productos para obtener fotos impactantes.",
         comentario1: "La fotografía de productos es muy detallada, gracias por los consejos.",
@@ -415,6 +443,7 @@ const Data = [
     },
     {
         img: "imagen29.jpg",
+        categoria: "Fotografía Especializada",
         nombre: "Fotografía de Alimentos: Capturando la Belleza de la Comida",
         texto: "La fotografía de alimentos nos permite capturar la belleza y la tentación de la comida. En este artículo, te ofrecemos consejos sobre cómo iluminar, componer y estilizar los platos para obtener fotos deliciosas.",
         comentario1: "La fotografía de alimentos es muy creativa, gracias por los consejos.",
@@ -430,6 +459,7 @@ const Data = [
     },
     {
         img: "imagen30.jpg",
+        categoria: "Técnicas de Fotografía",
         nombre: "Fotografía Submarina: Explorando el Mundo Bajo el Agua",
         texto: "La fotografía submarina nos permite explorar y capturar la belleza del mundo bajo el agua. En este artículo, te ofrecemos consejos sobre cómo prepararte, qué equipo utilizar y cómo fotografiar la vida marina para obtener fotos impresionantes.",
         comentario1: "La fotografía submarina es fascinante, gracias por los consejos.",
@@ -445,6 +475,7 @@ const Data = [
     },
     {
         img: "imagen31.jpg",
+        categoria: "Técnicas de Fotografía",
         nombre: "Fotografía de Moda Callejera: Capturando el Estilo Urbano",
         texto: "La fotografía de moda callejera se centra en capturar el estilo y la moda en entornos urbanos. En este artículo, te ofrecemos consejos sobre cómo encontrar los mejores lugares y cómo interactuar con los modelos para obtener fotos auténticas de moda callejera.",
         comentario1: "La fotografía de moda callejera es muy auténtica, gracias por los consejos.",
@@ -460,6 +491,7 @@ const Data = [
     },
     {
         img: "imagen32.jpg",
+        categoria: "Técnicas de Fotografía",
         nombre: "Fotografía de Paisajes Invernales: Capturando la Belleza del Invierno",
         texto: "La fotografía de paisajes invernales nos permite capturar la belleza y la serenidad del invierno. En este artículo, te ofrecemos consejos sobre cómo proteger tu equipo, qué configuraciones de cámara utilizar y cómo encontrar los mejores lugares para fotografiar paisajes invernales.",
         comentario1: "La fotografía de paisajes invernales es muy mágica, gracias por los consejos.",
@@ -474,6 +506,7 @@ const Data = [
         comentario10: "Gracias por las recomendaciones, ahora disfruto más de fotografiar paisajes invernales."
     }, {
         img: "imagen33.jpg",
+        categoria: "Técnicas de Fotografía",
         nombre: "Fotografía de Retrato: Capturando la Esencia de las Personas",
         texto: "La fotografía de retrato se centra en capturar la esencia y la personalidad de las personas. En este artículo, te ofrecemos consejos sobre cómo iluminar, componer y dirigir a los sujetos para obtener retratos impactantes.",
         comentario1: "La fotografía de retrato es muy íntima, gracias por los consejos.",
@@ -489,6 +522,7 @@ const Data = [
     },
     {
         img: "imagen34.jpg",
+        categoria: "Técnicas de Fotografía",
         nombre: "Fotografía de Viajes: Capturando la Esencia de los Lugares",
         texto: "La fotografía de viajes nos permite capturar la esencia y la diversidad de los lugares que visitamos. En este artículo, te ofrecemos consejos sobre cómo planificar tus fotos de viaje, qué equipo llevar y cómo capturar la cultura y la atmósfera de cada destino.",
         comentario1: "La fotografía de viajes es muy emocionante, gracias por los consejos.",
@@ -504,6 +538,7 @@ const Data = [
     },
     {
         img: "imagen35.jpg",
+        categoria: "Técnicas de Fotografía",
         nombre: "Fotografía de Bodas: Capturando Momentos Especiales",
         texto: "La fotografía de bodas se centra en capturar los momentos especiales y las emociones de un día tan importante. En este artículo, te ofrecemos consejos sobre cómo prepararte, qué equipo llevar y cómo capturar los momentos clave de una boda.",
         comentario1: "La fotografía de bodas es muy emotiva, gracias por los consejos.",
@@ -519,6 +554,7 @@ const Data = [
     },
     {
         img: "imagen36.jpg",
+        categoria: "Técnicas de Fotografía",
         nombre: "Fotografía de Eventos: Capturando la Energía del Momento",
         texto: "La fotografía de eventos se centra en capturar la energía y la dinámica de diversos eventos. En este artículo, te ofrecemos consejos sobre cómo moverte en el evento, qué equipo llevar y cómo anticipar los momentos clave para obtener fotos impresionantes.",
         comentario1: "La fotografía de eventos es muy dinámica, gracias por los consejos.",
@@ -534,6 +570,7 @@ const Data = [
     },
     {
         img: "imagen37.jpg",
+        categoria: "Técnicas de Fotografía",
         nombre: "Fotografía de Flores: Capturando la Belleza de la Naturaleza",
         texto: "La fotografía de flores nos permite capturar la belleza y la delicadeza de las plantas. En este artículo, te ofrecemos consejos sobre cómo encontrar los mejores ángulos, qué configuraciones de cámara utilizar y cómo utilizar la luz para resaltar los detalles de las flores.",
         comentario1: "La fotografía de flores es muy delicada, gracias por los consejos.",
@@ -549,6 +586,7 @@ const Data = [
     },
     {
         img: "imagen38.jpg",
+        categoria: "Técnicas de Fotografía",
         nombre: "Fotografía de Puestas de Sol: Capturando la Magia del Atardecer",
         texto: "La fotografía de puestas de sol nos permite capturar la magia y los colores vibrantes del atardecer. En este artículo, te ofrecemos consejos sobre cómo planificar tu sesión, qué configuraciones de cámara utilizar y cómo encontrar los mejores lugares para fotografiar puestas de sol.",
         comentario1: "La fotografía de puestas de sol es muy mágica, gracias por los consejos.",
@@ -563,6 +601,7 @@ const Data = [
         comentario10: "Gracias por las recomendaciones, ahora disfruto más de fotografiar puestas de sol."
     },{
         img: "imagen39.jpg",
+        categoria: "Fotografía de Naturaleza",
         nombre: "Fotografía Nocturna: Capturando la Belleza de la Noche",
         texto: "La fotografía nocturna nos permite capturar la belleza y el misterio de la noche. En este artículo, te ofrecemos consejos sobre cómo utilizar largas exposiciones, qué equipo necesitarás y cómo encontrar los mejores lugares para fotografiar la noche.",
         comentario1: "La fotografía nocturna es muy intrigante, gracias por los consejos.",
@@ -578,6 +617,7 @@ const Data = [
     },
     {
         img: "imagen40.jpg",
+        categoria: "Técnicas de Fotografía",
         nombre: "Fotografía de Arquitectura: Capturando la Grandeza de los Edificios",
         texto: "La fotografía de arquitectura se centra en capturar la estructura y el diseño de los edificios. En este artículo, te ofrecemos consejos sobre cómo encontrar los mejores ángulos, qué configuraciones de cámara utilizar y cómo resaltar los detalles arquitectónicos.",
         comentario1: "La fotografía de arquitectura es muy impresionante, gracias por los consejos.",
@@ -593,6 +633,7 @@ const Data = [
     },
     {
         img: "imagen41.jpg",
+        categoria: "Técnicas de Fotografía",
         nombre: "Fotografía de Deportes: Capturando la Acción en Movimiento",
         texto: "La fotografía de deportes se centra en capturar la acción y la emoción de los eventos deportivos. En este artículo, te ofrecemos consejos sobre cómo anticipar los momentos clave, qué configuraciones de cámara utilizar y cómo moverte para obtener las mejores tomas.",
         comentario1: "La fotografía de deportes es muy emocionante, gracias por los consejos.",
@@ -608,6 +649,7 @@ const Data = [
     },
     {
         img: "imagen42.jpg",
+        categoria: "Técnicas de Fotografía",
         nombre: "Fotografía Aérea: Capturando el Mundo Desde las Alturas",
         texto: "La fotografía aérea nos permite capturar el mundo desde una perspectiva completamente nueva. En este artículo, te ofrecemos consejos sobre cómo utilizar drones, qué configuraciones de cámara emplear y cómo encontrar los mejores lugares para realizar fotografía aérea.",
         comentario1: "La fotografía aérea es fascinante, gracias por los consejos.",
@@ -623,6 +665,7 @@ const Data = [
     },
     {
         img: "imagen43.jpg",
+        categoria: "Fotografía de Naturaleza",
         nombre: "Fotografía de Animales Domésticos: Capturando la Personalidad de tus Mascotas",
         texto: "La fotografía de animales domésticos se centra en capturar la personalidad y el encanto de nuestras mascotas. En este artículo, te ofrecemos consejos sobre cómo interactuar con tus mascotas, qué configuraciones de cámara utilizar y cómo capturar sus mejores momentos.",
         comentario1: "La fotografía de mascotas es muy divertida, gracias por los consejos.",
@@ -638,6 +681,7 @@ const Data = [
     },
     {
         img: "imagen44.jpg",
+        categoria: "Fotografía de Naturaleza",
         nombre: "Fotografía de Estrellas: Capturando la Inmensidad del Universo",
         texto: "La fotografía de estrellas nos permite capturar la inmensidad y la belleza del universo. En este artículo, te ofrecemos consejos sobre cómo planificar tu sesión, qué configuraciones de cámara utilizar y cómo encontrar los mejores lugares para fotografiar el cielo estrellado.",
         comentario1: "La fotografía de estrellas es muy inspiradora, gracias por los consejos.",
@@ -652,6 +696,7 @@ const Data = [
         comentario10: "Gracias por las recomendaciones, ahora disfruto más de fotografiar estrellas."
     },{
         img: "imagen45.jpg",
+        categoria: "Fotografía de Naturaleza",
         nombre: "Fotografía de Naturaleza Muerta: Capturando la Belleza de los Objetos Inanimados",
         texto: "La fotografía de naturaleza muerta se enfoca en capturar la belleza y el detalle de los objetos inanimados. En este artículo, te ofrecemos consejos sobre cómo componer tus escenas, qué iluminación utilizar y cómo resaltar las texturas y formas de los objetos.",
         comentario1: "La fotografía de naturaleza muerta es muy creativa, gracias por los consejos.",
@@ -667,6 +712,7 @@ const Data = [
     },
     {
         img: "imagen46.jpg",
+        categoria: "Fotografía de Naturaleza",
         nombre: "Fotografía de Otoño: Capturando los Colores del Otoño",
         texto: "La fotografía de otoño nos permite capturar la vibrante paleta de colores que ofrece esta estación. En este artículo, te ofrecemos consejos sobre cómo aprovechar la luz dorada, qué configuraciones de cámara utilizar y cómo encontrar los mejores lugares para fotografiar los colores del otoño.",
         comentario1: "La fotografía de otoño es muy vibrante, gracias por los consejos.",
@@ -682,6 +728,7 @@ const Data = [
     },
     {
         img: "imagen47.jpg",
+        categoria: "Fotografía de Naturaleza",
         nombre: "Fotografía de Macro: Capturando los Detalles Más Pequeños",
         texto: "La fotografía macro nos permite capturar los detalles más pequeños e intrincados de los objetos. En este artículo, te ofrecemos consejos sobre cómo utilizar la lente macro, qué configuraciones de cámara emplear y cómo iluminar correctamente para obtener fotos de primer plano impresionantes.",
         comentario1: "La fotografía macro es increíblemente detallada, gracias por los consejos.",
@@ -697,6 +744,7 @@ const Data = [
     },
     {
         img: "imagen48.jpg",
+        categoria: "Fotografía de Naturaleza",
         nombre: "Fotografía de Paisajes Urbanos: Capturando la Vida en la Ciudad",
         texto: "La fotografía de paisajes urbanos se enfoca en capturar la vida y la arquitectura de la ciudad. En este artículo, te ofrecemos consejos sobre cómo encontrar los mejores ángulos, qué configuraciones de cámara utilizar y cómo capturar la esencia de la vida urbana.",
         comentario1: "La fotografía de paisajes urbanos es muy dinámica, gracias por los consejos.",
@@ -712,6 +760,7 @@ const Data = [
     },
     {
         img: "imagen49.jpg",
+        categoria: "Fotografía de Naturaleza",
         nombre: "Fotografía de Reflejos: Capturando Imágenes en Superficies Reflectantes",
         texto: "La fotografía de reflejos nos permite capturar imágenes en superficies reflectantes como el agua o los espejos. En este artículo, te ofrecemos consejos sobre cómo utilizar la luz, qué configuraciones de cámara emplear y cómo componer tus fotos para obtener reflejos impresionantes.",
         comentario1: "La fotografía de reflejos es fascinante, gracias por los consejos.",
@@ -727,6 +776,7 @@ const Data = [
     },
     {
         img: "imagen50.jpg",
+        categoria: "Fotografía de Naturaleza",
         nombre: "Fotografía de Rutas y Senderos: Capturando la Aventura al Aire Libre",
         texto: "La fotografía de rutas y senderos nos permite capturar la esencia de la aventura y la exploración al aire libre. En este artículo, te ofrecemos consejos sobre cómo encontrar los mejores senderos, qué equipo llevar y cómo capturar la belleza natural en tus fotos.",
         comentario1: "La fotografía de senderos es muy aventurera, gracias por los consejos.",
