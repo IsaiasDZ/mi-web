@@ -42,7 +42,7 @@ import Tu17 from "../img/Tu17.jpg";
 import Tu18 from "../img/Tu18.jpg";
 import Tu19 from "../img/Tu19.jpg";
 import Tu20 from "../img/Tu20.jpg";
-
+import corona from "../img/corona.jpg";
 
 const EntrevistasPre = () => {
 const entrevistasPre = [
@@ -278,8 +278,10 @@ return (
   <div className="movieP-list">
           </div>{entrevistasPre.map(entrevistasPre => (
               <div className="cardP">
+                   <img src={corona} className="Corona" alt="Imgen no disponible"/>
                    <div className='cardP-image '>
                <img src={entrevistasPre.image}/>  
+       
              </div>
              <div className="cardP-content">
                <div key={entrevistasPre.id} >   <div className="cardP-content h2">
@@ -297,6 +299,7 @@ return (
         <div className="movieP-list">
                 </div>{premiumtutoriales.map(premiumtutoriales => (
                     <div className="cardP">
+                        <img src={corona} className="Corona" alt="Imgen no disponible"/>
                          <div className='cardP-image '>
                      <img src={premiumtutoriales.image}/>  
                    </div>

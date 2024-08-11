@@ -15,6 +15,14 @@ height: 900px;
 margin: 0;
 
 }
+.Corona
+{
+  position: absolute;
+  top: 10px; /* 10 píxeles desde el borde superior */
+  right: 10px; /* 10 píxeles desde el borde derecho */
+  width: 40px; /* Ajusta el tamaño del icono */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
 
 .Subtitulo-pREP{/*CATEGORIAS*/
   font-family:Helvetica;
@@ -44,6 +52,7 @@ width: 1920px;
  display: none;
 }
 .cardP {
+  position: relative;
 display:flexbox; /*CARD*/
   align-items: center;
   width: 420px;
