@@ -86,8 +86,8 @@
 .gallery-content .vertical img{
     margin: 5px;
     transition: 0.3;
-    width: 250px;
-    height: 350px;
+    width: 290px;
+    height: auto;
     display: flex;
     border-radius: 5px;
 
@@ -97,9 +97,9 @@
 .gallery-content .horizontal img{
     margin: 5px;
     transition: 0.3;
-    width: auto;
-    width:550px ;
-    height: 300px;
+    
+    width:440px ;
+    height: 280px;
     display: flex;
     border-radius: 5px;
 

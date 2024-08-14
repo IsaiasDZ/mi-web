@@ -43,14 +43,12 @@ padding: 0px;
 height: 400px;
 display: flex;
 overflow:scroll;
-scrollbar-color:linear-gradient(90deg, rgba(118,61,29,1) 0%, rgba(179,250,242,1) 100%);
+scrollbar-color: #ffffff17 #00000000;
 width: 1920px;
 
 }
 
-.Contenedor-pREP::-webkit-scrollbar{
- display: none;
-}
+
 .cardP {
   position: relative;
 display:flexbox; /*CARD*/

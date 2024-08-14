@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useAuth0 } from '@auth0/auth0-react'; 
 import "../styles/Articles.css";
 import Data from "../database/Data-article";
 import { IoBookmarks } from "react-icons/io5";
@@ -28,8 +29,9 @@ const FilterButton = ({ setFilter }) => {
     setFilter({ categoria: ''});
     setShowFilters(false); // Close the filters menu after resetting
   };
-
+  
   return (
+    
     <div className='buttonsFilt'>
       <button onClick={toggleFilters} class="btn btn-dark"><FaFilter /> Escoger Filtros</button>
       <button class="btn btn-dark" onClick={handleResetFilters}><FaEye /> Mostrar Todos</button>
@@ -53,6 +55,7 @@ const FilterButton = ({ setFilter }) => {
 
 
 const Articulos = () => {
+  
   const [filters, setFilters] = useState({ categoria: ''});
 
 // Aquí puedes aplicar los filtros a tus datos
@@ -62,7 +65,11 @@ const filteredData = Data.filter(item => {
   );
 });
 
-  
+const { user, isAuthenticated, isLoading } = useAuth0();
+
+if (isLoading) {
+    return <div>Loading...</div>;
+}
     return(
       <div>
       <div className='button-filter' style={{marginLeft:"120px"}}>
@@ -72,7 +79,7 @@ const filteredData = Data.filter(item => {
         {filteredData.map((item, index) => (
       <div className="articulos-div"  key={index}>
         <div className="box-title">
-            <p className="nombre-testimonio"><strong>{item.nombre}<IoBookmarks className="book"/></strong></p>
+            <p className="nombre-testimonio"><strong>{item.categoria}: {item.nombre}<IoBookmarks className="book"/></strong></p>
             
         </div>
         
@@ -91,7 +98,7 @@ const filteredData = Data.filter(item => {
       </div>
       <div className="body-comments">
         <div className="box-comments">
-          <img className="img-comment" src={require(`../img/${img2}`)} alt="foto-de-daniel"/>
+          <img className="img-comment" src={user.picture} alt="foto-de-daniel"/>
           <input class="form-control form-control-lg" type="text" placeholder="Escribe un comentario..." aria-label="Escribe un comentario..."/>
           <button class="btn btn-primary">Enviar</button>
           
